@@ -34,7 +34,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          <Router base={import.meta.env.BASE_URL}>
+          <Router base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
             <AppRoutes />
           </Router>
         </TooltipProvider>
