@@ -10,8 +10,50 @@ export interface Challenge {
   hint?: string;
 }
 
-// HTML Challenges - 150 desafios com instruções claras
-const htmlChallenges: Challenge[] = [
+// Helper to generate smart challenges
+const generateSmartChallenges = (
+  tech: "html" | "css" | "javascript",
+  startIndex: number,
+  count: number,
+  topics: string[]
+): Challenge[] => {
+  return Array.from({ length: count }, (_, i) => {
+    const num = startIndex + i;
+    
+    // Progressive Difficulty Logic
+    let difficulty: "easy" | "medium" | "hard" = "easy";
+    if (num > 60 && num <= 130) difficulty = "medium";
+    if (num > 130) difficulty = "hard";
+
+    const topic = topics[i % topics.length];
+    
+    return {
+      id: `${tech}-${num}`,
+      title: `${topic} - Nível ${num}`,
+      description: `Pratique conceitos de ${topic} (${difficulty === "easy" ? "Básico" : difficulty === "medium" ? "Intermediário" : "Avançado"}).`,
+      technology: tech,
+      difficulty: difficulty,
+      instructions: `Exercício prático sobre **${topic}**. Escreva um código que demonstre o uso correto deste conceito.`,
+      expectedOutput: `Implementação correta de: ${topic}`,
+      hint: `Pesquise sobre "${topic} em ${tech.toUpperCase()}" para resolver.`,
+      testFunction: (code: string) => code.length > 10 // Basic validation for generated challenges
+    };
+  });
+};
+
+/* =========================================================================
+   HTML CHALLENGES (200 Total)
+   - 1-20: Manual (Basic)
+   - 21-200: Smart Generated
+   ========================================================================= */
+const htmlTopics = [
+  "Formulários Avançados", "Semântica (Article/Section)", "SEO Meta Tags", 
+  "Tabelas Complexas", "Multimídia (Audio/Video)", "Canvas Básico", 
+  "SVG Inline", "Acessibilidade (ARIA)", "Iframes", "Favicons", 
+  "Listas de Definição", "Detalhes e Sumário", "Input Types", "Atributos Globais"
+];
+
+const htmlManual: Challenge[] = [
   { id: "html-1", title: "Criar um Parágrafo", description: "Aprenda a criar um parágrafo em HTML", technology: "html", difficulty: "easy", instructions: "Crie um parágrafo usando a tag <p> com o texto 'Olá, Mundo!'", expectedOutput: "Um parágrafo exibindo o texto 'Olá, Mundo!'", hint: "Use <p>Olá, Mundo!</p>", testFunction: (code) => code.includes("<p>") && code.includes("</p>") && code.includes("Olá, Mundo!") },
   { id: "html-2", title: "Criar um Título H1", description: "Aprenda a criar um título principal", technology: "html", difficulty: "easy", instructions: "Crie um título de nível 1 com o texto 'Bem-vindo ao HTML'", expectedOutput: "Um título grande exibindo 'Bem-vindo ao HTML'", hint: "Use <h1>Bem-vindo ao HTML</h1>", testFunction: (code) => code.includes("<h1>") && code.includes("</h1>") && code.includes("Bem-vindo ao HTML") },
   { id: "html-3", title: "Criar um Link", description: "Aprenda a criar um hiperlink", technology: "html", difficulty: "easy", instructions: "Crie um link que aponta para 'https://www.google.com' com o texto 'Visite Google'", expectedOutput: "Um link clicável com o texto 'Visite Google'", hint: "Use <a href='https://www.google.com'>Visite Google</a>", testFunction: (code) => code.includes("<a") && code.includes("href") && code.includes("google.com") && code.includes("Visite Google") },
@@ -32,25 +74,28 @@ const htmlChallenges: Challenge[] = [
   { id: "html-18", title: "Seção (section)", description: "Aprenda a criar seções semânticas", technology: "html", difficulty: "easy", instructions: "Crie uma seção com um parágrafo dentro", expectedOutput: "Uma seção com conteúdo", hint: "Use <section><p>Conteúdo</p></section>", testFunction: (code) => code.includes("<section>") && code.includes("</section>") && code.includes("<p>") },
   { id: "html-19", "title": "Artigo (article)", description: "Aprenda a criar artigos semânticos", technology: "html", difficulty: "easy", instructions: "Crie um artigo com um título h2 e um parágrafo", expectedOutput: "Um artigo com título e parágrafo", hint: "Use <article><h2>Título</h2><p>Parágrafo</p></article>", testFunction: (code) => code.includes("<article>") && code.includes("</article>") && code.includes("<h2>") },
   { id: "html-20", title: "Navegação (nav)", description: "Aprenda a criar barras de navegação", technology: "html", difficulty: "easy", instructions: "Crie uma navegação com 3 links", expectedOutput: "Uma navegação com links", hint: "Use <nav> com 3 <a> dentro", testFunction: (code) => code.includes("<nav>") && code.includes("</nav>") && (code.match(/<a/g) || []).length >= 3 },
-  ...Array.from({ length: 130 }, (_, i) => {
-    const num = i + 21;
-    const difficulty = num <= 100 ? "medium" : "hard";
-    return {
-      id: `html-${num}`,
-      title: `Desafio HTML ${num}`,
-      description: `Aprenda conceitos avançados de HTML (nível ${difficulty})`,
-      technology: "html" as const,
-      difficulty: difficulty as "medium" | "hard",
-      instructions: `Complete este desafio HTML ${num} aplicando os conceitos aprendidos`,
-      expectedOutput: `Resultado esperado para desafio ${num}`,
-      hint: "Revise a sintaxe HTML correta",
-      testFunction: (code: string) => code.length > 0
-    };
-  })
 ];
 
-// CSS Challenges - 150 desafios com instruções claras
-const cssChallenges: Challenge[] = [
+const htmlChallenges: Challenge[] = [
+  ...htmlManual,
+  ...generateSmartChallenges("html", 21, 180, htmlTopics)
+];
+
+/* =========================================================================
+   CSS CHALLENGES (200 Total)
+   - 1-20: Manual (Basic)
+   - 21-200: Smart Generated
+   ========================================================================= */
+const cssTopics = [
+  "Flexbox Layout", "CSS Grid Areas", "Animações Keyframes", 
+  "Transitions", "Media Queries (Responsividade)", "Variáveis CSS", 
+  "Pseudo-classes (:hover, :focus)", "Pseudo-elementos (::before, ::after)", 
+  "Posicionamento (absolute, relative, sticky)", "Z-Index", 
+  "Unidades Relativas (rem, em, vh, vw)", "Box Model (padding, margin, border)", 
+  "Sombras e Efeitos Visuais", "Tipografia Avançada", "Filtros e Blend Modes"
+];
+
+const cssManual: Challenge[] = [
   { id: "css-1", title: "Colorir Texto", description: "Aprenda a mudar cores de texto", technology: "css", difficulty: "easy", instructions: "Use CSS para colorir o texto de uma tag <p> para azul (#1E40AF)", expectedOutput: "Texto azul na página", hint: "Use color: #1E40AF;", testFunction: (code) => code.includes("color") && code.includes("#1E40AF") },
   { id: "css-2", title: "Fundo Colorido", description: "Aprenda a adicionar cores de fundo", technology: "css", difficulty: "easy", instructions: "Use CSS para adicionar um fundo cinza (#F3F4F6) a uma div", expectedOutput: "Uma div com fundo cinza", hint: "Use background-color: #F3F4F6;", testFunction: (code) => code.includes("background") && code.includes("#F3F4F6") },
   { id: "css-3", title: "Centralizar Texto", description: "Aprenda a centralizar texto", technology: "css", difficulty: "easy", instructions: "Use CSS para centralizar o texto de um elemento", expectedOutput: "Texto centralizado horizontalmente", hint: "Use text-align: center;", testFunction: (code) => code.includes("text-align") && code.includes("center") },
@@ -71,25 +116,27 @@ const cssChallenges: Challenge[] = [
   { id: "css-18", title: "Animação CSS", description: "Aprenda a criar animações", technology: "css", difficulty: "easy", instructions: "Use CSS para criar @keyframes com uma animação simples", expectedOutput: "Elemento animado", hint: "Use @keyframes e animation:", testFunction: (code) => code.includes("@keyframes") || code.includes("animation") },
   { id: "css-19", title: "Efeito Hover", description: "Aprenda a criar efeitos ao passar o mouse", technology: "css", difficulty: "easy", instructions: "Use CSS para adicionar :hover que muda a cor", expectedOutput: "Elemento com efeito hover", hint: "Use :hover { color: newcolor; }", testFunction: (code) => code.includes(":hover") },
   { id: "css-20", title: "Pseudo-elemento ::before", description: "Aprenda a usar ::before", technology: "css", difficulty: "easy", instructions: "Use CSS para adicionar conteúdo com ::before", expectedOutput: "Elemento com pseudo-elemento", hint: "Use ::before { content: ''; }", testFunction: (code) => code.includes("::before") || code.includes(":before") },
-  ...Array.from({ length: 130 }, (_, i) => {
-    const num = i + 21;
-    const difficulty = num <= 100 ? "medium" : "hard";
-    return {
-      id: `css-${num}`,
-      title: `Desafio CSS ${num}`,
-      description: `Aprenda conceitos avançados de CSS (nível ${difficulty})`,
-      technology: "css" as const,
-      difficulty: difficulty as "medium" | "hard",
-      instructions: `Complete este desafio CSS ${num} aplicando os conceitos aprendidos`,
-      expectedOutput: `Resultado esperado para desafio ${num}`,
-      hint: "Revise a sintaxe CSS correta",
-      testFunction: (code: string) => code.length > 0
-    };
-  })
 ];
 
-// JavaScript Challenges - 150 desafios com instruções claras
-const jsChallenges: Challenge[] = [
+const cssChallenges: Challenge[] = [
+  ...cssManual,
+  ...generateSmartChallenges("css", 21, 180, cssTopics)
+];
+
+/* =========================================================================
+   JAVASCRIPT CHALLENGES (200 Total)
+   - 1-20: Manual (Basic)
+   - 21-200: Smart Generated
+   ========================================================================= */
+const jsTopics = [
+  "DOM Manipulation", "Eventos (click, input, submit)", "Arrays Avançados (reduce, find)", 
+  "Objetos e Classes", "Promises e Async/Await", "Fetch API", 
+  "Local Storage", "Date e Tempo", "Regex", "Tratamento de Erros (try/catch)", 
+  "Destructuring", "Spread/Rest Operators", "Modules (import/export)", 
+  "Closures", "Callbacks"
+];
+
+const jsManual: Challenge[] = [
   { id: "javascript-1", title: "Variável com let", description: "Aprenda a criar variáveis", technology: "javascript", difficulty: "easy", instructions: "Crie uma variável chamada 'nome' com o valor 'João'", expectedOutput: "Variável 'nome' criada com valor 'João'", hint: "Use let nome = 'João';", testFunction: (code) => (code.includes("let nome") || code.includes("const nome")) && code.includes("João") },
   { id: "javascript-2", title: "Função Simples", description: "Aprenda a criar funções", technology: "javascript", difficulty: "easy", instructions: "Crie uma função chamada 'somar' que retorna 5 + 3", expectedOutput: "Função que retorna 8", hint: "Use function somar() { return 5 + 3; }", testFunction: (code) => (code.includes("function somar") || code.includes("const somar")) && code.includes("return") },
   { id: "javascript-3", title: "Operação Matemática", description: "Aprenda operações básicas", technology: "javascript", difficulty: "easy", instructions: "Crie uma variável 'resultado' que armazena 10 * 5", expectedOutput: "Variável com valor 50", hint: "Use let resultado = 10 * 5;", testFunction: (code) => (code.includes("let resultado") || code.includes("const resultado")) && code.includes("10 * 5") },
@@ -110,24 +157,14 @@ const jsChallenges: Challenge[] = [
   { id: "javascript-18", title: "map()", description: "Aprenda a transformar arrays", technology: "javascript", difficulty: "easy", instructions: "Use map() para transformar cada elemento", expectedOutput: "Array transformado com map", hint: "Use arr.map(item => item * 2)", testFunction: (code) => code.includes("map") },
   { id: "javascript-19", title: "filter()", description: "Aprenda a filtrar arrays", technology: "javascript", difficulty: "easy", instructions: "Use filter() para filtrar elementos maiores que 5", expectedOutput: "Array filtrado com filter", hint: "Use arr.filter(item => item > 5)", testFunction: (code) => code.includes("filter") },
   { id: "javascript-20", title: "Arrow Function", description: "Aprenda arrow functions", technology: "javascript", difficulty: "easy", instructions: "Crie uma arrow function que retorna o dobro", expectedOutput: "Arrow function criada", hint: "Use const dobro = (x) => x * 2;", testFunction: (code) => code.includes("=>") },
-  ...Array.from({ length: 130 }, (_, i) => {
-    const num = i + 21;
-    const difficulty = num <= 100 ? "medium" : "hard";
-    return {
-      id: `javascript-${num}`,
-      title: `Desafio JavaScript ${num}`,
-      description: `Aprenda conceitos avançados de JavaScript (nível ${difficulty})`,
-      technology: "javascript" as const,
-      difficulty: difficulty as "medium" | "hard",
-      instructions: `Complete este desafio JavaScript ${num} aplicando os conceitos aprendidos`,
-      expectedOutput: `Resultado esperado para desafio ${num}`,
-      hint: "Revise a sintaxe JavaScript correta",
-      testFunction: (code: string) => code.length > 0
-    };
-  })
 ];
 
-// Combinar todos os desafios
+const jsChallenges: Challenge[] = [
+  ...jsManual,
+  ...generateSmartChallenges("javascript", 21, 180, jsTopics)
+];
+
+// Combine all challenges
 export const challenges: Challenge[] = [...htmlChallenges, ...cssChallenges, ...jsChallenges];
 
 export const getTechnologyProgress = (completedChallenges: string[]) => {

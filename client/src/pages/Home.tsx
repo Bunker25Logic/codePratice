@@ -125,7 +125,7 @@ export default function Home() {
                 <Code2 className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold gradient-text" style={{ fontFamily: "Poppins" }}>
+                <h1 className="text-2xl font-bold gradient-text">
                   CodePractice
                 </h1>
                 <p className="text-xs text-muted-foreground">Aprenda a programar na prática</p>
@@ -169,7 +169,7 @@ export default function Home() {
                     </span>
                     <DifficultyBadge difficulty={currentChallenge?.difficulty || "easy"} />
                   </div>
-                  <h2 className="text-2xl font-bold text-foreground" style={{ fontFamily: "Poppins" }}>
+                  <h2 className="text-2xl font-bold text-foreground">
                     {currentChallenge?.title}
                   </h2>
                   <p className="text-muted-foreground mt-2 text-sm">{currentChallenge?.description}</p>
