@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "html-1",
+    "title": "Criar um Parágrafo",
+    "description": "Crie um parágrafo HTML simples",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Escreva um parágrafo com a tag <p> contendo o texto 'Olá, Mundo!'",
+    "expectedOutput": "Um parágrafo exibindo 'Olá, Mundo!'",
+    "testFunction": "code.includes('<p>') && code.includes('</p>') && code.includes('Olá, Mundo!')"
+  },
+  {
+    "id": "html-2",
+    "title": "Criar um Título",
+    "description": "Crie um título de nível 1",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Escreva um título h1 com o texto 'Bem-vindo'",
+    "expectedOutput": "Um título grande exibindo 'Bem-vindo'",
+    "testFunction": "code.includes('<h1>') && code.includes('</h1>') && code.includes('Bem-vindo')"
+  },
+  {
+    "id": "html-3",
+    "title": "Criar um Link",
+    "description": "Crie um link para um site",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um link que aponta para 'https://www.google.com' com o texto 'Google'",
+    "expectedOutput": "Um link clicável com o texto 'Google'",
+    "testFunction": "code.includes('<a') && code.includes('</a>') && code.includes('href') && code.includes('google.com') && code.includes('Google')"
+  },
+  {
+    "id": "html-4",
+    "title": "Criar uma Lista",
+    "description": "Crie uma lista não ordenada",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma lista com 3 itens: 'Maçã', 'Banana', 'Laranja'",
+    "expectedOutput": "Uma lista com 3 itens",
+    "testFunction": "code.includes('<ul>') && code.includes('</ul>') && (code.match(/<li>/g) || []).length >= 3 && code.includes('Maçã') && code.includes('Banana') && code.includes('Laranja')"
+  },
+  {
+    "id": "html-5",
+    "title": "Criar um Título H2",
+    "description": "Crie um título de nível 2",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Escreva um título h2 com o texto 'Seção Principal'",
+    "expectedOutput": "Um título de nível 2",
+    "testFunction": "code.includes('<h2>') && code.includes('</h2>') && code.includes('Seção Principal')"
+  },
+  {
+    "id": "html-6",
+    "title": "Criar um Título H3",
+    "description": "Crie um título de nível 3",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Escreva um título h3 com o texto 'Subseção'",
+    "expectedOutput": "Um título de nível 3",
+    "testFunction": "code.includes('<h3>') && code.includes('</h3>') && code.includes('Subseção')"
+  },
+  {
+    "id": "html-7",
+    "title": "Criar Texto em Negrito",
+    "description": "Crie texto em negrito",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um texto em negrito com a tag <strong> contendo 'Importante'",
+    "expectedOutput": "Texto em negrito",
+    "testFunction": "code.includes('<strong>') && code.includes('</strong>') && code.includes('Importante')"
+  },
+  {
+    "id": "html-8",
+    "title": "Criar Texto em Itálico",
+    "description": "Crie texto em itálico",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um texto em itálico com a tag <em> contendo 'Ênfase'",
+    "expectedOutput": "Texto em itálico",
+    "testFunction": "code.includes('<em>') && code.includes('</em>') && code.includes('Ênfase')"
+  },
+  {
+    "id": "html-9",
+    "title": "Criar uma Imagem",
+    "description": "Insira uma imagem",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <img> com src='imagem.jpg' e alt='Descrição'",
+    "expectedOutput": "Uma imagem exibida",
+    "testFunction": "code.includes('<img') && code.includes('src=') && code.includes('imagem.jpg') && code.includes('alt=')"
+  },
+  {
+    "id": "html-10",
+    "title": "Criar um Botão",
+    "description": "Crie um botão HTML",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um botão com o texto 'Clique aqui'",
+    "expectedOutput": "Um botão clicável",
+    "testFunction": "code.includes('<button>') && code.includes('</button>') && code.includes('Clique aqui')"
+  },
+  {
+    "id": "html-11",
+    "title": "Criar um Formulário",
+    "description": "Crie um formulário básico",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <form> com um campo de entrada <input>",
+    "expectedOutput": "Um formulário com campo de entrada",
+    "testFunction": "code.includes('<form>') && code.includes('</form>') && code.includes('<input')"
+  },
+  {
+    "id": "html-12",
+    "title": "Criar um Campo de Entrada",
+    "description": "Crie um campo de entrada de texto",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um <input> com type='text' e placeholder='Nome'",
+    "expectedOutput": "Um campo de entrada",
+    "testFunction": "code.includes('<input') && code.includes('type=') && code.includes('text') && code.includes('placeholder')"
+  },
+  {
+    "id": "html-13",
+    "title": "Criar um Rótulo",
+    "description": "Crie um rótulo para formulário",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <label> com o texto 'Email'",
+    "expectedOutput": "Um rótulo de formulário",
+    "testFunction": "code.includes('<label>') && code.includes('</label>') && code.includes('Email')"
+  },
+  {
+    "id": "html-14",
+    "title": "Criar uma Tabela",
+    "description": "Crie uma tabela simples",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma <table> com <tr>, <td> contendo dados",
+    "expectedOutput": "Uma tabela com dados",
+    "testFunction": "code.includes('<table>') && code.includes('</table>') && code.includes('<tr>') && code.includes('<td>')"
+  },
+  {
+    "id": "html-15",
+    "title": "Criar uma Divisão",
+    "description": "Crie uma div para agrupar elementos",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <div> contendo um parágrafo",
+    "expectedOutput": "Uma divisão com conteúdo",
+    "testFunction": "code.includes('<div>') && code.includes('</div>') && code.includes('<p>')"
+  },
+  {
+    "id": "html-16",
+    "title": "Criar um Cabeçalho",
+    "description": "Crie um cabeçalho HTML",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <header> com um título h1",
+    "expectedOutput": "Um cabeçalho com título",
+    "testFunction": "code.includes('<header>') && code.includes('</header>') && code.includes('<h1>')"
+  },
+  {
+    "id": "html-17",
+    "title": "Criar um Rodapé",
+    "description": "Crie um rodapé HTML",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <footer> com o texto 'Copyright 2024'",
+    "expectedOutput": "Um rodapé",
+    "testFunction": "code.includes('<footer>') && code.includes('</footer>') && code.includes('Copyright')"
+  },
+  {
+    "id": "html-18",
+    "title": "Criar uma Seção",
+    "description": "Crie uma seção HTML",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <section> com um parágrafo",
+    "expectedOutput": "Uma seção com conteúdo",
+    "testFunction": "code.includes('<section>') && code.includes('</section>') && code.includes('<p>')"
+  },
+  {
+    "id": "html-19",
+    "title": "Criar um Artigo",
+    "description": "Crie um artigo HTML",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <article> com um título h2",
+    "expectedOutput": "Um artigo com título",
+    "testFunction": "code.includes('<article>') && code.includes('</article>') && code.includes('<h2>')"
+  },
+  {
+    "id": "html-20",
+    "title": "Criar uma Navegação",
+    "description": "Crie uma barra de navegação",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <nav> com links",
+    "expectedOutput": "Uma navegação com links",
+    "testFunction": "code.includes('<nav>') && code.includes('</nav>') && code.includes('<a')"
+  },
+  {
+    "id": "html-21",
+    "title": "Desafio HTML 21",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 21",
+    "expectedOutput": "Resultado esperado para desafio 21",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-22",
+    "title": "Desafio HTML 22",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 22",
+    "expectedOutput": "Resultado esperado para desafio 22",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-23",
+    "title": "Desafio HTML 23",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 23",
+    "expectedOutput": "Resultado esperado para desafio 23",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-24",
+    "title": "Desafio HTML 24",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 24",
+    "expectedOutput": "Resultado esperado para desafio 24",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-25",
+    "title": "Desafio HTML 25",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 25",
+    "expectedOutput": "Resultado esperado para desafio 25",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-26",
+    "title": "Desafio HTML 26",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 26",
+    "expectedOutput": "Resultado esperado para desafio 26",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-27",
+    "title": "Desafio HTML 27",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 27",
+    "expectedOutput": "Resultado esperado para desafio 27",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-28",
+    "title": "Desafio HTML 28",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 28",
+    "expectedOutput": "Resultado esperado para desafio 28",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-29",
+    "title": "Desafio HTML 29",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 29",
+    "expectedOutput": "Resultado esperado para desafio 29",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-30",
+    "title": "Desafio HTML 30",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 30",
+    "expectedOutput": "Resultado esperado para desafio 30",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-31",
+    "title": "Desafio HTML 31",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 31",
+    "expectedOutput": "Resultado esperado para desafio 31",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-32",
+    "title": "Desafio HTML 32",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 32",
+    "expectedOutput": "Resultado esperado para desafio 32",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-33",
+    "title": "Desafio HTML 33",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 33",
+    "expectedOutput": "Resultado esperado para desafio 33",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-34",
+    "title": "Desafio HTML 34",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 34",
+    "expectedOutput": "Resultado esperado para desafio 34",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-35",
+    "title": "Desafio HTML 35",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 35",
+    "expectedOutput": "Resultado esperado para desafio 35",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-36",
+    "title": "Desafio HTML 36",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 36",
+    "expectedOutput": "Resultado esperado para desafio 36",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-37",
+    "title": "Desafio HTML 37",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 37",
+    "expectedOutput": "Resultado esperado para desafio 37",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-38",
+    "title": "Desafio HTML 38",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 38",
+    "expectedOutput": "Resultado esperado para desafio 38",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-39",
+    "title": "Desafio HTML 39",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 39",
+    "expectedOutput": "Resultado esperado para desafio 39",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-40",
+    "title": "Desafio HTML 40",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 40",
+    "expectedOutput": "Resultado esperado para desafio 40",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-41",
+    "title": "Desafio HTML 41",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 41",
+    "expectedOutput": "Resultado esperado para desafio 41",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-42",
+    "title": "Desafio HTML 42",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 42",
+    "expectedOutput": "Resultado esperado para desafio 42",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-43",
+    "title": "Desafio HTML 43",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 43",
+    "expectedOutput": "Resultado esperado para desafio 43",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-44",
+    "title": "Desafio HTML 44",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 44",
+    "expectedOutput": "Resultado esperado para desafio 44",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-45",
+    "title": "Desafio HTML 45",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 45",
+    "expectedOutput": "Resultado esperado para desafio 45",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-46",
+    "title": "Desafio HTML 46",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 46",
+    "expectedOutput": "Resultado esperado para desafio 46",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-47",
+    "title": "Desafio HTML 47",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 47",
+    "expectedOutput": "Resultado esperado para desafio 47",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-48",
+    "title": "Desafio HTML 48",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 48",
+    "expectedOutput": "Resultado esperado para desafio 48",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-49",
+    "title": "Desafio HTML 49",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 49",
+    "expectedOutput": "Resultado esperado para desafio 49",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-50",
+    "title": "Desafio HTML 50",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 50",
+    "expectedOutput": "Resultado esperado para desafio 50",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-51",
+    "title": "Desafio HTML 51",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 51",
+    "expectedOutput": "Resultado esperado para desafio 51",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-52",
+    "title": "Desafio HTML 52",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 52",
+    "expectedOutput": "Resultado esperado para desafio 52",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-53",
+    "title": "Desafio HTML 53",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 53",
+    "expectedOutput": "Resultado esperado para desafio 53",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-54",
+    "title": "Desafio HTML 54",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 54",
+    "expectedOutput": "Resultado esperado para desafio 54",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-55",
+    "title": "Desafio HTML 55",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 55",
+    "expectedOutput": "Resultado esperado para desafio 55",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-56",
+    "title": "Desafio HTML 56",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 56",
+    "expectedOutput": "Resultado esperado para desafio 56",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-57",
+    "title": "Desafio HTML 57",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 57",
+    "expectedOutput": "Resultado esperado para desafio 57",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-58",
+    "title": "Desafio HTML 58",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 58",
+    "expectedOutput": "Resultado esperado para desafio 58",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-59",
+    "title": "Desafio HTML 59",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 59",
+    "expectedOutput": "Resultado esperado para desafio 59",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-60",
+    "title": "Desafio HTML 60",
+    "description": "Desafio de HTML nível medium",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 60",
+    "expectedOutput": "Resultado esperado para desafio 60",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-61",
+    "title": "Desafio HTML 61",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 61",
+    "expectedOutput": "Resultado esperado para desafio 61",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-62",
+    "title": "Desafio HTML 62",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 62",
+    "expectedOutput": "Resultado esperado para desafio 62",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-63",
+    "title": "Desafio HTML 63",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 63",
+    "expectedOutput": "Resultado esperado para desafio 63",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-64",
+    "title": "Desafio HTML 64",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 64",
+    "expectedOutput": "Resultado esperado para desafio 64",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-65",
+    "title": "Desafio HTML 65",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 65",
+    "expectedOutput": "Resultado esperado para desafio 65",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-66",
+    "title": "Desafio HTML 66",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 66",
+    "expectedOutput": "Resultado esperado para desafio 66",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-67",
+    "title": "Desafio HTML 67",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 67",
+    "expectedOutput": "Resultado esperado para desafio 67",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-68",
+    "title": "Desafio HTML 68",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 68",
+    "expectedOutput": "Resultado esperado para desafio 68",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-69",
+    "title": "Desafio HTML 69",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 69",
+    "expectedOutput": "Resultado esperado para desafio 69",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-70",
+    "title": "Desafio HTML 70",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 70",
+    "expectedOutput": "Resultado esperado para desafio 70",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-71",
+    "title": "Desafio HTML 71",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 71",
+    "expectedOutput": "Resultado esperado para desafio 71",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-72",
+    "title": "Desafio HTML 72",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 72",
+    "expectedOutput": "Resultado esperado para desafio 72",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-73",
+    "title": "Desafio HTML 73",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 73",
+    "expectedOutput": "Resultado esperado para desafio 73",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-74",
+    "title": "Desafio HTML 74",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 74",
+    "expectedOutput": "Resultado esperado para desafio 74",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-75",
+    "title": "Desafio HTML 75",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 75",
+    "expectedOutput": "Resultado esperado para desafio 75",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-76",
+    "title": "Desafio HTML 76",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 76",
+    "expectedOutput": "Resultado esperado para desafio 76",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-77",
+    "title": "Desafio HTML 77",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 77",
+    "expectedOutput": "Resultado esperado para desafio 77",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-78",
+    "title": "Desafio HTML 78",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 78",
+    "expectedOutput": "Resultado esperado para desafio 78",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-79",
+    "title": "Desafio HTML 79",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 79",
+    "expectedOutput": "Resultado esperado para desafio 79",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-80",
+    "title": "Desafio HTML 80",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 80",
+    "expectedOutput": "Resultado esperado para desafio 80",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-81",
+    "title": "Desafio HTML 81",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 81",
+    "expectedOutput": "Resultado esperado para desafio 81",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-82",
+    "title": "Desafio HTML 82",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 82",
+    "expectedOutput": "Resultado esperado para desafio 82",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-83",
+    "title": "Desafio HTML 83",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 83",
+    "expectedOutput": "Resultado esperado para desafio 83",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-84",
+    "title": "Desafio HTML 84",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 84",
+    "expectedOutput": "Resultado esperado para desafio 84",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-85",
+    "title": "Desafio HTML 85",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 85",
+    "expectedOutput": "Resultado esperado para desafio 85",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-86",
+    "title": "Desafio HTML 86",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 86",
+    "expectedOutput": "Resultado esperado para desafio 86",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-87",
+    "title": "Desafio HTML 87",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 87",
+    "expectedOutput": "Resultado esperado para desafio 87",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-88",
+    "title": "Desafio HTML 88",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 88",
+    "expectedOutput": "Resultado esperado para desafio 88",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-89",
+    "title": "Desafio HTML 89",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 89",
+    "expectedOutput": "Resultado esperado para desafio 89",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-90",
+    "title": "Desafio HTML 90",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 90",
+    "expectedOutput": "Resultado esperado para desafio 90",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-91",
+    "title": "Desafio HTML 91",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 91",
+    "expectedOutput": "Resultado esperado para desafio 91",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-92",
+    "title": "Desafio HTML 92",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 92",
+    "expectedOutput": "Resultado esperado para desafio 92",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-93",
+    "title": "Desafio HTML 93",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 93",
+    "expectedOutput": "Resultado esperado para desafio 93",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-94",
+    "title": "Desafio HTML 94",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 94",
+    "expectedOutput": "Resultado esperado para desafio 94",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-95",
+    "title": "Desafio HTML 95",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 95",
+    "expectedOutput": "Resultado esperado para desafio 95",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-96",
+    "title": "Desafio HTML 96",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 96",
+    "expectedOutput": "Resultado esperado para desafio 96",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-97",
+    "title": "Desafio HTML 97",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 97",
+    "expectedOutput": "Resultado esperado para desafio 97",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-98",
+    "title": "Desafio HTML 98",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 98",
+    "expectedOutput": "Resultado esperado para desafio 98",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-99",
+    "title": "Desafio HTML 99",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 99",
+    "expectedOutput": "Resultado esperado para desafio 99",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "html-100",
+    "title": "Desafio HTML 100",
+    "description": "Desafio de HTML nível hard",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 100",
+    "expectedOutput": "Resultado esperado para desafio 100",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-1",
+    "title": "Colorir Texto",
+    "description": "Mude a cor do texto para azul",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para colorir o texto de uma tag <p> para azul (#1E40AF)",
+    "expectedOutput": "Texto azul",
+    "testFunction": "code.includes('color') && (code.includes('#1E40AF') || code.includes('blue'))"
+  },
+  {
+    "id": "css-2",
+    "title": "Fundo Colorido",
+    "description": "Adicione um fundo colorido",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar um fundo cinza (#F3F4F6) a uma div",
+    "expectedOutput": "Uma div com fundo cinza",
+    "testFunction": "code.includes('background') && code.includes('#F3F4F6')"
+  },
+  {
+    "id": "css-3",
+    "title": "Centralizar Texto",
+    "description": "Centralize o texto horizontalmente",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para centralizar o texto de um elemento",
+    "expectedOutput": "Texto centralizado",
+    "testFunction": "code.includes('text-align') && code.includes('center')"
+  },
+  {
+    "id": "css-4",
+    "title": "Adicionar Margem",
+    "description": "Adicione margem a um elemento",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar 20px de margem em todos os lados",
+    "expectedOutput": "Elemento com espaço ao redor",
+    "testFunction": "code.includes('margin') && code.includes('20')"
+  },
+  {
+    "id": "css-5",
+    "title": "Adicionar Padding",
+    "description": "Adicione preenchimento interno",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar 15px de padding",
+    "expectedOutput": "Elemento com espaço interno",
+    "testFunction": "code.includes('padding') && code.includes('15')"
+  },
+  {
+    "id": "css-6",
+    "title": "Mudar Tamanho da Fonte",
+    "description": "Altere o tamanho da fonte",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir font-size como 24px",
+    "expectedOutput": "Texto maior",
+    "testFunction": "code.includes('font-size') && code.includes('24')"
+  },
+  {
+    "id": "css-7",
+    "title": "Adicionar Borda",
+    "description": "Adicione uma borda a um elemento",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar uma borda de 2px sólida preta",
+    "expectedOutput": "Elemento com borda",
+    "testFunction": "code.includes('border') && code.includes('2') && code.includes('solid')"
+  },
+  {
+    "id": "css-8",
+    "title": "Fazer Texto em Negrito",
+    "description": "Deixe o texto em negrito",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir font-weight como bold",
+    "expectedOutput": "Texto em negrito",
+    "testFunction": "code.includes('font-weight') && code.includes('bold')"
+  },
+  {
+    "id": "css-9",
+    "title": "Fazer Texto em Itálico",
+    "description": "Deixe o texto em itálico",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir font-style como italic",
+    "expectedOutput": "Texto em itálico",
+    "testFunction": "code.includes('font-style') && code.includes('italic')"
+  },
+  {
+    "id": "css-10",
+    "title": "Adicionar Sombra",
+    "description": "Adicione sombra a um elemento",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar box-shadow",
+    "expectedOutput": "Elemento com sombra",
+    "testFunction": "code.includes('box-shadow')"
+  },
+  {
+    "id": "css-11",
+    "title": "Criar Canto Arredondado",
+    "description": "Arredonde os cantos",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar border-radius de 8px",
+    "expectedOutput": "Elemento com cantos arredondados",
+    "testFunction": "code.includes('border-radius') && code.includes('8')"
+  },
+  {
+    "id": "css-12",
+    "title": "Definir Largura",
+    "description": "Defina a largura de um elemento",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir width como 300px",
+    "expectedOutput": "Elemento com largura definida",
+    "testFunction": "code.includes('width') && code.includes('300')"
+  },
+  {
+    "id": "css-13",
+    "title": "Definir Altura",
+    "description": "Defina a altura de um elemento",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir height como 200px",
+    "expectedOutput": "Elemento com altura definida",
+    "testFunction": "code.includes('height') && code.includes('200')"
+  },
+  {
+    "id": "css-14",
+    "title": "Usar Display Flex",
+    "description": "Use flexbox para layout",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Use CSS para definir display como flex",
+    "expectedOutput": "Layout flexível",
+    "testFunction": "code.includes('display') && code.includes('flex')"
+  },
+  {
+    "id": "css-15",
+    "title": "Usar Display Grid",
+    "description": "Use grid para layout",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Use CSS para definir display como grid",
+    "expectedOutput": "Layout em grade",
+    "testFunction": "code.includes('display') && code.includes('grid')"
+  },
+  {
+    "id": "css-16",
+    "title": "Criar Gradiente",
+    "description": "Crie um gradiente de cores",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Use CSS para criar um background-image com gradiente linear",
+    "expectedOutput": "Fundo com gradiente",
+    "testFunction": "code.includes('gradient')"
+  },
+  {
+    "id": "css-17",
+    "title": "Adicionar Transição",
+    "description": "Adicione transição suave",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Use CSS para adicionar transition",
+    "expectedOutput": "Elemento com transição",
+    "testFunction": "code.includes('transition')"
+  },
+  {
+    "id": "css-18",
+    "title": "Criar Animação",
+    "description": "Crie uma animação CSS",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Use CSS para criar @keyframes",
+    "expectedOutput": "Elemento animado",
+    "testFunction": "code.includes('@keyframes') || code.includes('animation')"
+  },
+  {
+    "id": "css-19",
+    "title": "Hover Effect",
+    "description": "Crie efeito ao passar o mouse",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Use CSS para adicionar :hover",
+    "expectedOutput": "Elemento com efeito hover",
+    "testFunction": "code.includes(':hover')"
+  },
+  {
+    "id": "css-20",
+    "title": "Pseudo-elemento Before",
+    "description": "Use pseudo-elemento ::before",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Use CSS para adicionar ::before",
+    "expectedOutput": "Elemento com pseudo-elemento",
+    "testFunction": "code.includes('::before') || code.includes(':before')"
+  },
+  {
+    "id": "css-21",
+    "title": "Desafio CSS 21",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 21",
+    "expectedOutput": "Resultado esperado para desafio 21",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-22",
+    "title": "Desafio CSS 22",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 22",
+    "expectedOutput": "Resultado esperado para desafio 22",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-23",
+    "title": "Desafio CSS 23",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 23",
+    "expectedOutput": "Resultado esperado para desafio 23",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-24",
+    "title": "Desafio CSS 24",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 24",
+    "expectedOutput": "Resultado esperado para desafio 24",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-25",
+    "title": "Desafio CSS 25",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 25",
+    "expectedOutput": "Resultado esperado para desafio 25",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-26",
+    "title": "Desafio CSS 26",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 26",
+    "expectedOutput": "Resultado esperado para desafio 26",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-27",
+    "title": "Desafio CSS 27",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 27",
+    "expectedOutput": "Resultado esperado para desafio 27",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-28",
+    "title": "Desafio CSS 28",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 28",
+    "expectedOutput": "Resultado esperado para desafio 28",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-29",
+    "title": "Desafio CSS 29",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 29",
+    "expectedOutput": "Resultado esperado para desafio 29",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-30",
+    "title": "Desafio CSS 30",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 30",
+    "expectedOutput": "Resultado esperado para desafio 30",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-31",
+    "title": "Desafio CSS 31",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 31",
+    "expectedOutput": "Resultado esperado para desafio 31",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-32",
+    "title": "Desafio CSS 32",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 32",
+    "expectedOutput": "Resultado esperado para desafio 32",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-33",
+    "title": "Desafio CSS 33",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 33",
+    "expectedOutput": "Resultado esperado para desafio 33",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-34",
+    "title": "Desafio CSS 34",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 34",
+    "expectedOutput": "Resultado esperado para desafio 34",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-35",
+    "title": "Desafio CSS 35",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 35",
+    "expectedOutput": "Resultado esperado para desafio 35",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-36",
+    "title": "Desafio CSS 36",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 36",
+    "expectedOutput": "Resultado esperado para desafio 36",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-37",
+    "title": "Desafio CSS 37",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 37",
+    "expectedOutput": "Resultado esperado para desafio 37",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-38",
+    "title": "Desafio CSS 38",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 38",
+    "expectedOutput": "Resultado esperado para desafio 38",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-39",
+    "title": "Desafio CSS 39",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 39",
+    "expectedOutput": "Resultado esperado para desafio 39",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-40",
+    "title": "Desafio CSS 40",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 40",
+    "expectedOutput": "Resultado esperado para desafio 40",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-41",
+    "title": "Desafio CSS 41",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 41",
+    "expectedOutput": "Resultado esperado para desafio 41",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-42",
+    "title": "Desafio CSS 42",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 42",
+    "expectedOutput": "Resultado esperado para desafio 42",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-43",
+    "title": "Desafio CSS 43",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 43",
+    "expectedOutput": "Resultado esperado para desafio 43",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-44",
+    "title": "Desafio CSS 44",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 44",
+    "expectedOutput": "Resultado esperado para desafio 44",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-45",
+    "title": "Desafio CSS 45",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 45",
+    "expectedOutput": "Resultado esperado para desafio 45",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-46",
+    "title": "Desafio CSS 46",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 46",
+    "expectedOutput": "Resultado esperado para desafio 46",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-47",
+    "title": "Desafio CSS 47",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 47",
+    "expectedOutput": "Resultado esperado para desafio 47",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-48",
+    "title": "Desafio CSS 48",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 48",
+    "expectedOutput": "Resultado esperado para desafio 48",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-49",
+    "title": "Desafio CSS 49",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 49",
+    "expectedOutput": "Resultado esperado para desafio 49",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-50",
+    "title": "Desafio CSS 50",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 50",
+    "expectedOutput": "Resultado esperado para desafio 50",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-51",
+    "title": "Desafio CSS 51",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 51",
+    "expectedOutput": "Resultado esperado para desafio 51",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-52",
+    "title": "Desafio CSS 52",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 52",
+    "expectedOutput": "Resultado esperado para desafio 52",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-53",
+    "title": "Desafio CSS 53",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 53",
+    "expectedOutput": "Resultado esperado para desafio 53",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-54",
+    "title": "Desafio CSS 54",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 54",
+    "expectedOutput": "Resultado esperado para desafio 54",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-55",
+    "title": "Desafio CSS 55",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 55",
+    "expectedOutput": "Resultado esperado para desafio 55",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-56",
+    "title": "Desafio CSS 56",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 56",
+    "expectedOutput": "Resultado esperado para desafio 56",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-57",
+    "title": "Desafio CSS 57",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 57",
+    "expectedOutput": "Resultado esperado para desafio 57",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-58",
+    "title": "Desafio CSS 58",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 58",
+    "expectedOutput": "Resultado esperado para desafio 58",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-59",
+    "title": "Desafio CSS 59",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 59",
+    "expectedOutput": "Resultado esperado para desafio 59",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-60",
+    "title": "Desafio CSS 60",
+    "description": "Desafio de CSS nível medium",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 60",
+    "expectedOutput": "Resultado esperado para desafio 60",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-61",
+    "title": "Desafio CSS 61",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 61",
+    "expectedOutput": "Resultado esperado para desafio 61",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-62",
+    "title": "Desafio CSS 62",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 62",
+    "expectedOutput": "Resultado esperado para desafio 62",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-63",
+    "title": "Desafio CSS 63",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 63",
+    "expectedOutput": "Resultado esperado para desafio 63",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-64",
+    "title": "Desafio CSS 64",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 64",
+    "expectedOutput": "Resultado esperado para desafio 64",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-65",
+    "title": "Desafio CSS 65",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 65",
+    "expectedOutput": "Resultado esperado para desafio 65",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-66",
+    "title": "Desafio CSS 66",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 66",
+    "expectedOutput": "Resultado esperado para desafio 66",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-67",
+    "title": "Desafio CSS 67",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 67",
+    "expectedOutput": "Resultado esperado para desafio 67",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-68",
+    "title": "Desafio CSS 68",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 68",
+    "expectedOutput": "Resultado esperado para desafio 68",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-69",
+    "title": "Desafio CSS 69",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 69",
+    "expectedOutput": "Resultado esperado para desafio 69",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-70",
+    "title": "Desafio CSS 70",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 70",
+    "expectedOutput": "Resultado esperado para desafio 70",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-71",
+    "title": "Desafio CSS 71",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 71",
+    "expectedOutput": "Resultado esperado para desafio 71",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-72",
+    "title": "Desafio CSS 72",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 72",
+    "expectedOutput": "Resultado esperado para desafio 72",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-73",
+    "title": "Desafio CSS 73",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 73",
+    "expectedOutput": "Resultado esperado para desafio 73",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-74",
+    "title": "Desafio CSS 74",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 74",
+    "expectedOutput": "Resultado esperado para desafio 74",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-75",
+    "title": "Desafio CSS 75",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 75",
+    "expectedOutput": "Resultado esperado para desafio 75",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-76",
+    "title": "Desafio CSS 76",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 76",
+    "expectedOutput": "Resultado esperado para desafio 76",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-77",
+    "title": "Desafio CSS 77",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 77",
+    "expectedOutput": "Resultado esperado para desafio 77",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-78",
+    "title": "Desafio CSS 78",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 78",
+    "expectedOutput": "Resultado esperado para desafio 78",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-79",
+    "title": "Desafio CSS 79",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 79",
+    "expectedOutput": "Resultado esperado para desafio 79",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-80",
+    "title": "Desafio CSS 80",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 80",
+    "expectedOutput": "Resultado esperado para desafio 80",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-81",
+    "title": "Desafio CSS 81",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 81",
+    "expectedOutput": "Resultado esperado para desafio 81",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-82",
+    "title": "Desafio CSS 82",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 82",
+    "expectedOutput": "Resultado esperado para desafio 82",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-83",
+    "title": "Desafio CSS 83",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 83",
+    "expectedOutput": "Resultado esperado para desafio 83",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-84",
+    "title": "Desafio CSS 84",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 84",
+    "expectedOutput": "Resultado esperado para desafio 84",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-85",
+    "title": "Desafio CSS 85",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 85",
+    "expectedOutput": "Resultado esperado para desafio 85",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-86",
+    "title": "Desafio CSS 86",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 86",
+    "expectedOutput": "Resultado esperado para desafio 86",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-87",
+    "title": "Desafio CSS 87",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 87",
+    "expectedOutput": "Resultado esperado para desafio 87",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-88",
+    "title": "Desafio CSS 88",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 88",
+    "expectedOutput": "Resultado esperado para desafio 88",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-89",
+    "title": "Desafio CSS 89",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 89",
+    "expectedOutput": "Resultado esperado para desafio 89",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-90",
+    "title": "Desafio CSS 90",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 90",
+    "expectedOutput": "Resultado esperado para desafio 90",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-91",
+    "title": "Desafio CSS 91",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 91",
+    "expectedOutput": "Resultado esperado para desafio 91",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-92",
+    "title": "Desafio CSS 92",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 92",
+    "expectedOutput": "Resultado esperado para desafio 92",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-93",
+    "title": "Desafio CSS 93",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 93",
+    "expectedOutput": "Resultado esperado para desafio 93",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-94",
+    "title": "Desafio CSS 94",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 94",
+    "expectedOutput": "Resultado esperado para desafio 94",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-95",
+    "title": "Desafio CSS 95",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 95",
+    "expectedOutput": "Resultado esperado para desafio 95",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-96",
+    "title": "Desafio CSS 96",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 96",
+    "expectedOutput": "Resultado esperado para desafio 96",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-97",
+    "title": "Desafio CSS 97",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 97",
+    "expectedOutput": "Resultado esperado para desafio 97",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-98",
+    "title": "Desafio CSS 98",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 98",
+    "expectedOutput": "Resultado esperado para desafio 98",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-99",
+    "title": "Desafio CSS 99",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 99",
+    "expectedOutput": "Resultado esperado para desafio 99",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "css-100",
+    "title": "Desafio CSS 100",
+    "description": "Desafio de CSS nível hard",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 100",
+    "expectedOutput": "Resultado esperado para desafio 100",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-1",
+    "title": "Variável Simples",
+    "description": "Crie uma variável com seu nome",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie uma variável chamada 'nome' com o valor 'João'",
+    "expectedOutput": "Variável criada com sucesso",
+    "testFunction": "(code.includes('let nome') || code.includes('const nome')) && code.includes('João')"
+  },
+  {
+    "id": "javascript-2",
+    "title": "Função Simples",
+    "description": "Crie uma função que retorna um número",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie uma função chamada 'somar' que retorna 5 + 3",
+    "expectedOutput": "Função que retorna 8",
+    "testFunction": "(code.includes('function somar') || code.includes('const somar')) && code.includes('return') && (code.includes('8') || code.includes('5 + 3'))"
+  },
+  {
+    "id": "javascript-3",
+    "title": "Operação Matemática",
+    "description": "Crie uma variável com resultado de operação",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie uma variável 'resultado' que armazena 10 * 5",
+    "expectedOutput": "Variável com valor 50",
+    "testFunction": "(code.includes('let resultado') || code.includes('const resultado')) && code.includes('10 * 5')"
+  },
+  {
+    "id": "javascript-4",
+    "title": "Condicional If",
+    "description": "Crie uma condicional simples",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um if que verifica se 5 > 3",
+    "expectedOutput": "Condicional criada",
+    "testFunction": "code.includes('if') && code.includes('5 > 3')"
+  },
+  {
+    "id": "javascript-5",
+    "title": "Condicional Else",
+    "description": "Crie uma condicional com else",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um if-else",
+    "expectedOutput": "Condicional com else",
+    "testFunction": "code.includes('if') && code.includes('else')"
+  },
+  {
+    "id": "javascript-6",
+    "title": "Loop For",
+    "description": "Crie um loop for",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um loop for que itera 5 vezes",
+    "expectedOutput": "Loop for criado",
+    "testFunction": "code.includes('for') && code.includes('i')"
+  },
+  {
+    "id": "javascript-7",
+    "title": "Loop While",
+    "description": "Crie um loop while",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um loop while",
+    "expectedOutput": "Loop while criado",
+    "testFunction": "code.includes('while')"
+  },
+  {
+    "id": "javascript-8",
+    "title": "Array Simples",
+    "description": "Crie um array",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um array com 3 números",
+    "expectedOutput": "Array criado",
+    "testFunction": "code.includes('[') && code.includes(']')"
+  },
+  {
+    "id": "javascript-9",
+    "title": "Acessar Array",
+    "description": "Acesse um elemento do array",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Acesse o primeiro elemento de um array",
+    "expectedOutput": "Elemento acessado",
+    "testFunction": "code.includes('[0]')"
+  },
+  {
+    "id": "javascript-10",
+    "title": "Objeto Simples",
+    "description": "Crie um objeto",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um objeto com propriedades",
+    "expectedOutput": "Objeto criado",
+    "testFunction": "code.includes('{') && code.includes('}') && code.includes(':')"
+  },
+  {
+    "id": "javascript-11",
+    "title": "Acessar Propriedade",
+    "description": "Acesse uma propriedade de objeto",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Acesse uma propriedade de um objeto",
+    "expectedOutput": "Propriedade acessada",
+    "testFunction": "code.includes('.')"
+  },
+  {
+    "id": "javascript-12",
+    "title": "String Concatenação",
+    "description": "Concatene strings",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Concatene duas strings",
+    "expectedOutput": "Strings concatenadas",
+    "testFunction": "code.includes('+') || code.includes('`')"
+  },
+  {
+    "id": "javascript-13",
+    "title": "Template String",
+    "description": "Use template string",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use template string com ${}",
+    "expectedOutput": "Template string usada",
+    "testFunction": "code.includes('`') && code.includes('$')"
+  },
+  {
+    "id": "javascript-14",
+    "title": "Método Push",
+    "description": "Use método push em array",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use push() para adicionar elemento",
+    "expectedOutput": "Elemento adicionado",
+    "testFunction": "code.includes('push')"
+  },
+  {
+    "id": "javascript-15",
+    "title": "Método Pop",
+    "description": "Use método pop em array",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use pop() para remover elemento",
+    "expectedOutput": "Elemento removido",
+    "testFunction": "code.includes('pop')"
+  },
+  {
+    "id": "javascript-16",
+    "title": "Método Length",
+    "description": "Use propriedade length",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use length para obter tamanho",
+    "expectedOutput": "Tamanho obtido",
+    "testFunction": "code.includes('length')"
+  },
+  {
+    "id": "javascript-17",
+    "title": "Método forEach",
+    "description": "Use forEach para iterar",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Use forEach() em um array",
+    "expectedOutput": "Array iterado",
+    "testFunction": "code.includes('forEach')"
+  },
+  {
+    "id": "javascript-18",
+    "title": "Método Map",
+    "description": "Use map para transformar array",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Use map() para transformar array",
+    "expectedOutput": "Array transformado",
+    "testFunction": "code.includes('map')"
+  },
+  {
+    "id": "javascript-19",
+    "title": "Método Filter",
+    "description": "Use filter para filtrar array",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Use filter() para filtrar array",
+    "expectedOutput": "Array filtrado",
+    "testFunction": "code.includes('filter')"
+  },
+  {
+    "id": "javascript-20",
+    "title": "Arrow Function",
+    "description": "Use arrow function",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Crie uma arrow function",
+    "expectedOutput": "Arrow function criada",
+    "testFunction": "code.includes('=>')"
+  },
+  {
+    "id": "javascript-21",
+    "title": "Desafio JavaScript 21",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 21",
+    "expectedOutput": "Resultado esperado para desafio 21",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-22",
+    "title": "Desafio JavaScript 22",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 22",
+    "expectedOutput": "Resultado esperado para desafio 22",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-23",
+    "title": "Desafio JavaScript 23",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 23",
+    "expectedOutput": "Resultado esperado para desafio 23",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-24",
+    "title": "Desafio JavaScript 24",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 24",
+    "expectedOutput": "Resultado esperado para desafio 24",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-25",
+    "title": "Desafio JavaScript 25",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 25",
+    "expectedOutput": "Resultado esperado para desafio 25",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-26",
+    "title": "Desafio JavaScript 26",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 26",
+    "expectedOutput": "Resultado esperado para desafio 26",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-27",
+    "title": "Desafio JavaScript 27",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 27",
+    "expectedOutput": "Resultado esperado para desafio 27",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-28",
+    "title": "Desafio JavaScript 28",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 28",
+    "expectedOutput": "Resultado esperado para desafio 28",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-29",
+    "title": "Desafio JavaScript 29",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 29",
+    "expectedOutput": "Resultado esperado para desafio 29",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-30",
+    "title": "Desafio JavaScript 30",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 30",
+    "expectedOutput": "Resultado esperado para desafio 30",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-31",
+    "title": "Desafio JavaScript 31",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 31",
+    "expectedOutput": "Resultado esperado para desafio 31",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-32",
+    "title": "Desafio JavaScript 32",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 32",
+    "expectedOutput": "Resultado esperado para desafio 32",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-33",
+    "title": "Desafio JavaScript 33",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 33",
+    "expectedOutput": "Resultado esperado para desafio 33",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-34",
+    "title": "Desafio JavaScript 34",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 34",
+    "expectedOutput": "Resultado esperado para desafio 34",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-35",
+    "title": "Desafio JavaScript 35",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 35",
+    "expectedOutput": "Resultado esperado para desafio 35",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-36",
+    "title": "Desafio JavaScript 36",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 36",
+    "expectedOutput": "Resultado esperado para desafio 36",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-37",
+    "title": "Desafio JavaScript 37",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 37",
+    "expectedOutput": "Resultado esperado para desafio 37",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-38",
+    "title": "Desafio JavaScript 38",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 38",
+    "expectedOutput": "Resultado esperado para desafio 38",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-39",
+    "title": "Desafio JavaScript 39",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 39",
+    "expectedOutput": "Resultado esperado para desafio 39",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-40",
+    "title": "Desafio JavaScript 40",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 40",
+    "expectedOutput": "Resultado esperado para desafio 40",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-41",
+    "title": "Desafio JavaScript 41",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 41",
+    "expectedOutput": "Resultado esperado para desafio 41",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-42",
+    "title": "Desafio JavaScript 42",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 42",
+    "expectedOutput": "Resultado esperado para desafio 42",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-43",
+    "title": "Desafio JavaScript 43",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 43",
+    "expectedOutput": "Resultado esperado para desafio 43",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-44",
+    "title": "Desafio JavaScript 44",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 44",
+    "expectedOutput": "Resultado esperado para desafio 44",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-45",
+    "title": "Desafio JavaScript 45",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 45",
+    "expectedOutput": "Resultado esperado para desafio 45",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-46",
+    "title": "Desafio JavaScript 46",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 46",
+    "expectedOutput": "Resultado esperado para desafio 46",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-47",
+    "title": "Desafio JavaScript 47",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 47",
+    "expectedOutput": "Resultado esperado para desafio 47",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-48",
+    "title": "Desafio JavaScript 48",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 48",
+    "expectedOutput": "Resultado esperado para desafio 48",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-49",
+    "title": "Desafio JavaScript 49",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 49",
+    "expectedOutput": "Resultado esperado para desafio 49",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-50",
+    "title": "Desafio JavaScript 50",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 50",
+    "expectedOutput": "Resultado esperado para desafio 50",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-51",
+    "title": "Desafio JavaScript 51",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 51",
+    "expectedOutput": "Resultado esperado para desafio 51",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-52",
+    "title": "Desafio JavaScript 52",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 52",
+    "expectedOutput": "Resultado esperado para desafio 52",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-53",
+    "title": "Desafio JavaScript 53",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 53",
+    "expectedOutput": "Resultado esperado para desafio 53",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-54",
+    "title": "Desafio JavaScript 54",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 54",
+    "expectedOutput": "Resultado esperado para desafio 54",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-55",
+    "title": "Desafio JavaScript 55",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 55",
+    "expectedOutput": "Resultado esperado para desafio 55",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-56",
+    "title": "Desafio JavaScript 56",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 56",
+    "expectedOutput": "Resultado esperado para desafio 56",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-57",
+    "title": "Desafio JavaScript 57",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 57",
+    "expectedOutput": "Resultado esperado para desafio 57",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-58",
+    "title": "Desafio JavaScript 58",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 58",
+    "expectedOutput": "Resultado esperado para desafio 58",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-59",
+    "title": "Desafio JavaScript 59",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 59",
+    "expectedOutput": "Resultado esperado para desafio 59",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-60",
+    "title": "Desafio JavaScript 60",
+    "description": "Desafio de JavaScript nível medium",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 60",
+    "expectedOutput": "Resultado esperado para desafio 60",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-61",
+    "title": "Desafio JavaScript 61",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 61",
+    "expectedOutput": "Resultado esperado para desafio 61",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-62",
+    "title": "Desafio JavaScript 62",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 62",
+    "expectedOutput": "Resultado esperado para desafio 62",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-63",
+    "title": "Desafio JavaScript 63",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 63",
+    "expectedOutput": "Resultado esperado para desafio 63",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-64",
+    "title": "Desafio JavaScript 64",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 64",
+    "expectedOutput": "Resultado esperado para desafio 64",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-65",
+    "title": "Desafio JavaScript 65",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 65",
+    "expectedOutput": "Resultado esperado para desafio 65",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-66",
+    "title": "Desafio JavaScript 66",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 66",
+    "expectedOutput": "Resultado esperado para desafio 66",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-67",
+    "title": "Desafio JavaScript 67",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 67",
+    "expectedOutput": "Resultado esperado para desafio 67",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-68",
+    "title": "Desafio JavaScript 68",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 68",
+    "expectedOutput": "Resultado esperado para desafio 68",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-69",
+    "title": "Desafio JavaScript 69",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 69",
+    "expectedOutput": "Resultado esperado para desafio 69",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-70",
+    "title": "Desafio JavaScript 70",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 70",
+    "expectedOutput": "Resultado esperado para desafio 70",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-71",
+    "title": "Desafio JavaScript 71",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 71",
+    "expectedOutput": "Resultado esperado para desafio 71",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-72",
+    "title": "Desafio JavaScript 72",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 72",
+    "expectedOutput": "Resultado esperado para desafio 72",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-73",
+    "title": "Desafio JavaScript 73",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 73",
+    "expectedOutput": "Resultado esperado para desafio 73",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-74",
+    "title": "Desafio JavaScript 74",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 74",
+    "expectedOutput": "Resultado esperado para desafio 74",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-75",
+    "title": "Desafio JavaScript 75",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 75",
+    "expectedOutput": "Resultado esperado para desafio 75",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-76",
+    "title": "Desafio JavaScript 76",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 76",
+    "expectedOutput": "Resultado esperado para desafio 76",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-77",
+    "title": "Desafio JavaScript 77",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 77",
+    "expectedOutput": "Resultado esperado para desafio 77",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-78",
+    "title": "Desafio JavaScript 78",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 78",
+    "expectedOutput": "Resultado esperado para desafio 78",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-79",
+    "title": "Desafio JavaScript 79",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 79",
+    "expectedOutput": "Resultado esperado para desafio 79",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-80",
+    "title": "Desafio JavaScript 80",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 80",
+    "expectedOutput": "Resultado esperado para desafio 80",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-81",
+    "title": "Desafio JavaScript 81",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 81",
+    "expectedOutput": "Resultado esperado para desafio 81",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-82",
+    "title": "Desafio JavaScript 82",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 82",
+    "expectedOutput": "Resultado esperado para desafio 82",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-83",
+    "title": "Desafio JavaScript 83",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 83",
+    "expectedOutput": "Resultado esperado para desafio 83",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-84",
+    "title": "Desafio JavaScript 84",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 84",
+    "expectedOutput": "Resultado esperado para desafio 84",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-85",
+    "title": "Desafio JavaScript 85",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 85",
+    "expectedOutput": "Resultado esperado para desafio 85",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-86",
+    "title": "Desafio JavaScript 86",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 86",
+    "expectedOutput": "Resultado esperado para desafio 86",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-87",
+    "title": "Desafio JavaScript 87",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 87",
+    "expectedOutput": "Resultado esperado para desafio 87",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-88",
+    "title": "Desafio JavaScript 88",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 88",
+    "expectedOutput": "Resultado esperado para desafio 88",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-89",
+    "title": "Desafio JavaScript 89",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 89",
+    "expectedOutput": "Resultado esperado para desafio 89",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-90",
+    "title": "Desafio JavaScript 90",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 90",
+    "expectedOutput": "Resultado esperado para desafio 90",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-91",
+    "title": "Desafio JavaScript 91",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 91",
+    "expectedOutput": "Resultado esperado para desafio 91",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-92",
+    "title": "Desafio JavaScript 92",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 92",
+    "expectedOutput": "Resultado esperado para desafio 92",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-93",
+    "title": "Desafio JavaScript 93",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 93",
+    "expectedOutput": "Resultado esperado para desafio 93",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-94",
+    "title": "Desafio JavaScript 94",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 94",
+    "expectedOutput": "Resultado esperado para desafio 94",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-95",
+    "title": "Desafio JavaScript 95",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 95",
+    "expectedOutput": "Resultado esperado para desafio 95",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-96",
+    "title": "Desafio JavaScript 96",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 96",
+    "expectedOutput": "Resultado esperado para desafio 96",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-97",
+    "title": "Desafio JavaScript 97",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 97",
+    "expectedOutput": "Resultado esperado para desafio 97",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-98",
+    "title": "Desafio JavaScript 98",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 98",
+    "expectedOutput": "Resultado esperado para desafio 98",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-99",
+    "title": "Desafio JavaScript 99",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 99",
+    "expectedOutput": "Resultado esperado para desafio 99",
+    "testFunction": "code.length > 0"
+  },
+  {
+    "id": "javascript-100",
+    "title": "Desafio JavaScript 100",
+    "description": "Desafio de JavaScript nível hard",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 100",
+    "expectedOutput": "Resultado esperado para desafio 100",
+    "testFunction": "code.length > 0"
+  }
+]

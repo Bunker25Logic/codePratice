@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "html-1",
+    "title": "Criar um Parágrafo",
+    "description": "Aprenda a criar um parágrafo em HTML",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um parágrafo usando a tag <p> com o texto 'Olá, Mundo!'",
+    "expectedOutput": "Um parágrafo exibindo o texto 'Olá, Mundo!'",
+    "hint": "Use <p>Olá, Mundo!</p>"
+  },
+  {
+    "id": "html-2",
+    "title": "Criar um Título H1",
+    "description": "Aprenda a criar um título principal",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um título de nível 1 com o texto 'Bem-vindo ao HTML'",
+    "expectedOutput": "Um título grande exibindo 'Bem-vindo ao HTML'",
+    "hint": "Use <h1>Bem-vindo ao HTML</h1>"
+  },
+  {
+    "id": "html-3",
+    "title": "Criar um Link",
+    "description": "Aprenda a criar um hiperlink",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um link que aponta para 'https://www.google.com' com o texto 'Visite Google'",
+    "expectedOutput": "Um link clicável com o texto 'Visite Google'",
+    "hint": "Use <a href='https://www.google.com'>Visite Google</a>"
+  },
+  {
+    "id": "html-4",
+    "title": "Criar uma Lista Não Ordenada",
+    "description": "Aprenda a criar listas com bullets",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma lista com 3 frutas: Maçã, Banana e Laranja",
+    "expectedOutput": "Uma lista com 3 itens de frutas",
+    "hint": "Use <ul> com 3 <li> dentro"
+  },
+  {
+    "id": "html-5",
+    "title": "Criar um Título H2",
+    "description": "Aprenda a criar um subtítulo",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um título de nível 2 com o texto 'Seção Principal'",
+    "expectedOutput": "Um título de nível 2",
+    "hint": "Use <h2>Seção Principal</h2>"
+  },
+  {
+    "id": "html-6",
+    "title": "Criar um Título H3",
+    "description": "Aprenda a criar um sub-subtítulo",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um título de nível 3 com o texto 'Subseção'",
+    "expectedOutput": "Um título de nível 3",
+    "hint": "Use <h3>Subseção</h3>"
+  },
+  {
+    "id": "html-7",
+    "title": "Texto em Negrito",
+    "description": "Aprenda a destacar texto em negrito",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um texto em negrito com a tag <strong> contendo 'Importante'",
+    "expectedOutput": "Texto em negrito",
+    "hint": "Use <strong>Importante</strong>"
+  },
+  {
+    "id": "html-8",
+    "title": "Texto em Itálico",
+    "description": "Aprenda a destacar texto em itálico",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um texto em itálico com a tag <em> contendo 'Ênfase'",
+    "expectedOutput": "Texto em itálico",
+    "hint": "Use <em>Ênfase</em>"
+  },
+  {
+    "id": "html-9",
+    "title": "Inserir uma Imagem",
+    "description": "Aprenda a adicionar imagens",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tag <img> com src='imagem.jpg' e alt='Descrição da imagem'",
+    "expectedOutput": "Uma imagem com atributos corretos",
+    "hint": "Use <img src='imagem.jpg' alt='Descrição da imagem'>"
+  },
+  {
+    "id": "html-10",
+    "title": "Criar um Botão",
+    "description": "Aprenda a criar botões interativos",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um botão com o texto 'Clique aqui'",
+    "expectedOutput": "Um botão com o texto 'Clique aqui'",
+    "hint": "Use <button>Clique aqui</button>"
+  },
+  {
+    "id": "html-11",
+    "title": "Criar um Formulário",
+    "description": "Aprenda a criar formulários básicos",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um formulário com um campo de entrada de texto",
+    "expectedOutput": "Um formulário com um campo <input>",
+    "hint": "Use <form> e <input type='text'>"
+  },
+  {
+    "id": "html-12",
+    "title": "Campo de Entrada de Texto",
+    "description": "Aprenda a criar campos de entrada",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um campo de entrada com type='text' e placeholder='Digite seu nome'",
+    "expectedOutput": "Um campo de entrada com placeholder",
+    "hint": "Use <input type='text' placeholder='Digite seu nome'>"
+  },
+  {
+    "id": "html-13",
+    "title": "Rótulo de Formulário",
+    "description": "Aprenda a rotular campos de formulário",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um rótulo com o texto 'Email'",
+    "expectedOutput": "Um rótulo de formulário",
+    "hint": "Use <label>Email</label>"
+  },
+  {
+    "id": "html-14",
+    "title": "Criar uma Tabela",
+    "description": "Aprenda a criar tabelas",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma tabela com 2 linhas e 2 colunas contendo dados",
+    "expectedOutput": "Uma tabela com dados organizados",
+    "hint": "Use <table>, <tr> e <td>"
+  },
+  {
+    "id": "html-15",
+    "title": "Divisão (div)",
+    "description": "Aprenda a agrupar elementos",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma div contendo um parágrafo com o texto 'Conteúdo'",
+    "expectedOutput": "Uma divisão com um parágrafo dentro",
+    "hint": "Use <div><p>Conteúdo</p></div>"
+  },
+  {
+    "id": "html-16",
+    "title": "Cabeçalho (header)",
+    "description": "Aprenda a criar cabeçalhos semânticos",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um cabeçalho com um título h1 dentro",
+    "expectedOutput": "Um cabeçalho com título",
+    "hint": "Use <header><h1>Título</h1></header>"
+  },
+  {
+    "id": "html-17",
+    "title": "Rodapé (footer)",
+    "description": "Aprenda a criar rodapés semânticos",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um rodapé com o texto 'Copyright 2024'",
+    "expectedOutput": "Um rodapé com copyright",
+    "hint": "Use <footer>Copyright 2024</footer>"
+  },
+  {
+    "id": "html-18",
+    "title": "Seção (section)",
+    "description": "Aprenda a criar seções semânticas",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma seção com um parágrafo dentro",
+    "expectedOutput": "Uma seção com conteúdo",
+    "hint": "Use <section><p>Conteúdo</p></section>"
+  },
+  {
+    "id": "html-19",
+    "title": "Artigo (article)",
+    "description": "Aprenda a criar artigos semânticos",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um artigo com um título h2 e um parágrafo",
+    "expectedOutput": "Um artigo com título e parágrafo",
+    "hint": "Use <article><h2>Título</h2><p>Parágrafo</p></article>"
+  },
+  {
+    "id": "html-20",
+    "title": "Navegação (nav)",
+    "description": "Aprenda a criar barras de navegação",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma navegação com 3 links",
+    "expectedOutput": "Uma navegação com links",
+    "hint": "Use <nav> com 3 <a> dentro"
+  },
+  {
+    "id": "html-21",
+    "title": "Lista Ordenada",
+    "description": "Aprenda a criar listas numeradas",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma lista ordenada com 3 passos: Passo 1, Passo 2, Passo 3",
+    "expectedOutput": "Uma lista numerada com 3 itens",
+    "hint": "Use <ol> com 3 <li> dentro"
+  },
+  {
+    "id": "html-22",
+    "title": "Campo de Email",
+    "description": "Aprenda a criar campos de email",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um campo de entrada com type='email'",
+    "expectedOutput": "Um campo de email",
+    "hint": "Use <input type='email'>"
+  },
+  {
+    "id": "html-23",
+    "title": "Campo de Senha",
+    "description": "Aprenda a criar campos de senha",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um campo de entrada com type='password'",
+    "expectedOutput": "Um campo de senha",
+    "hint": "Use <input type='password'>"
+  },
+  {
+    "id": "html-24",
+    "title": "Checkbox",
+    "description": "Aprenda a criar checkboxes",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um checkbox com label 'Concordo com os termos'",
+    "expectedOutput": "Um checkbox com label",
+    "hint": "Use <input type='checkbox'> com <label>"
+  },
+  {
+    "id": "html-25",
+    "title": "Radio Button",
+    "description": "Aprenda a criar radio buttons",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie 2 radio buttons com labels 'Sim' e 'Não'",
+    "expectedOutput": "2 radio buttons com labels",
+    "hint": "Use <input type='radio'> com <label>"
+  },
+  {
+    "id": "html-26",
+    "title": "Área de Texto",
+    "description": "Aprenda a criar áreas de texto",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma textarea com placeholder='Digite sua mensagem'",
+    "expectedOutput": "Uma área de texto",
+    "hint": "Use <textarea placeholder='Digite sua mensagem'></textarea>"
+  },
+  {
+    "id": "html-27",
+    "title": "Select (Dropdown)",
+    "description": "Aprenda a criar dropdowns",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um select com 3 opções: Opção 1, Opção 2, Opção 3",
+    "expectedOutput": "Um dropdown com 3 opções",
+    "hint": "Use <select> com 3 <option> dentro"
+  },
+  {
+    "id": "html-28",
+    "title": "Quebra de Linha",
+    "description": "Aprenda a criar quebras de linha",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie 2 parágrafos com uma quebra de linha entre eles",
+    "expectedOutput": "2 parágrafos separados por quebra de linha",
+    "hint": "Use <br> para quebra de linha"
+  },
+  {
+    "id": "html-29",
+    "title": "Linha Horizontal",
+    "description": "Aprenda a criar linhas horizontais",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie uma linha horizontal usando <hr>",
+    "expectedOutput": "Uma linha horizontal",
+    "hint": "Use <hr>"
+  },
+  {
+    "id": "html-30",
+    "title": "Comentário HTML",
+    "description": "Aprenda a criar comentários",
+    "technology": "html",
+    "difficulty": "easy",
+    "instructions": "Crie um comentário HTML com o texto 'Este é um comentário'",
+    "expectedOutput": "Um comentário HTML",
+    "hint": "Use <!-- Este é um comentário -->"
+  },
+  {
+    "id": "html-31",
+    "title": "Formulário Completo",
+    "description": "Crie um formulário com múltiplos campos",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Crie um formulário com campos de nome, email e um botão de envio",
+    "expectedOutput": "Um formulário com 3 campos",
+    "hint": "Use <form> com <input> e <button>"
+  },
+  {
+    "id": "html-32",
+    "title": "Tabela com Cabeçalho",
+    "description": "Crie uma tabela com cabeçalho",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Crie uma tabela com <thead> contendo colunas 'Nome' e 'Idade'",
+    "expectedOutput": "Uma tabela com cabeçalho",
+    "hint": "Use <thead>, <tbody>, <tr>, <th>, <td>"
+  },
+  {
+    "id": "html-33",
+    "title": "Lista Aninhada",
+    "description": "Crie listas dentro de listas",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Crie uma lista com 2 itens, cada um contendo uma sublista",
+    "expectedOutput": "Uma lista com sublistas",
+    "hint": "Coloque <ul> ou <ol> dentro de <li>"
+  },
+  {
+    "id": "html-34",
+    "title": "Imagem com Link",
+    "description": "Crie um link contendo uma imagem",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Crie um link que contém uma imagem",
+    "expectedOutput": "Uma imagem dentro de um link",
+    "hint": "Use <a><img></a>"
+  },
+  {
+    "id": "html-35",
+    "title": "Fieldset e Legend",
+    "description": "Agrupe campos de formulário",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Crie um fieldset com legend 'Dados Pessoais' contendo 2 campos",
+    "expectedOutput": "Um fieldset com legenda",
+    "hint": "Use <fieldset> e <legend>"
+  },
+  {
+    "id": "html-36",
+    "title": "Desafio HTML 36",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 36 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 36",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-37",
+    "title": "Desafio HTML 37",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 37 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 37",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-38",
+    "title": "Desafio HTML 38",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 38 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 38",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-39",
+    "title": "Desafio HTML 39",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 39 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 39",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-40",
+    "title": "Desafio HTML 40",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 40 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 40",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-41",
+    "title": "Desafio HTML 41",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 41 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 41",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-42",
+    "title": "Desafio HTML 42",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 42 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 42",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-43",
+    "title": "Desafio HTML 43",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 43 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 43",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-44",
+    "title": "Desafio HTML 44",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 44 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 44",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-45",
+    "title": "Desafio HTML 45",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 45 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 45",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-46",
+    "title": "Desafio HTML 46",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 46 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 46",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-47",
+    "title": "Desafio HTML 47",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 47 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 47",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-48",
+    "title": "Desafio HTML 48",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 48 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 48",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-49",
+    "title": "Desafio HTML 49",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 49 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 49",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-50",
+    "title": "Desafio HTML 50",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 50 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 50",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-51",
+    "title": "Desafio HTML 51",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 51 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 51",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-52",
+    "title": "Desafio HTML 52",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 52 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 52",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-53",
+    "title": "Desafio HTML 53",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 53 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 53",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-54",
+    "title": "Desafio HTML 54",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 54 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 54",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-55",
+    "title": "Desafio HTML 55",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 55 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 55",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-56",
+    "title": "Desafio HTML 56",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 56 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 56",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-57",
+    "title": "Desafio HTML 57",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 57 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 57",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-58",
+    "title": "Desafio HTML 58",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 58 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 58",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-59",
+    "title": "Desafio HTML 59",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 59 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 59",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-60",
+    "title": "Desafio HTML 60",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 60 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 60",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-61",
+    "title": "Desafio HTML 61",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 61 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 61",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-62",
+    "title": "Desafio HTML 62",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 62 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 62",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-63",
+    "title": "Desafio HTML 63",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 63 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 63",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-64",
+    "title": "Desafio HTML 64",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 64 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 64",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-65",
+    "title": "Desafio HTML 65",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 65 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 65",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-66",
+    "title": "Desafio HTML 66",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 66 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 66",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-67",
+    "title": "Desafio HTML 67",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 67 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 67",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-68",
+    "title": "Desafio HTML 68",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 68 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 68",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-69",
+    "title": "Desafio HTML 69",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 69 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 69",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-70",
+    "title": "Desafio HTML 70",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 70 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 70",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-71",
+    "title": "Desafio HTML 71",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 71 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 71",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-72",
+    "title": "Desafio HTML 72",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 72 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 72",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-73",
+    "title": "Desafio HTML 73",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 73 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 73",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-74",
+    "title": "Desafio HTML 74",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 74 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 74",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-75",
+    "title": "Desafio HTML 75",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 75 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 75",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-76",
+    "title": "Desafio HTML 76",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 76 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 76",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-77",
+    "title": "Desafio HTML 77",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 77 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 77",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-78",
+    "title": "Desafio HTML 78",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 78 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 78",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-79",
+    "title": "Desafio HTML 79",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 79 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 79",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-80",
+    "title": "Desafio HTML 80",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 80 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 80",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-81",
+    "title": "Desafio HTML 81",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 81 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 81",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-82",
+    "title": "Desafio HTML 82",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 82 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 82",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-83",
+    "title": "Desafio HTML 83",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 83 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 83",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-84",
+    "title": "Desafio HTML 84",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 84 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 84",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-85",
+    "title": "Desafio HTML 85",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 85 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 85",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-86",
+    "title": "Desafio HTML 86",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 86 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 86",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-87",
+    "title": "Desafio HTML 87",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 87 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 87",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-88",
+    "title": "Desafio HTML 88",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 88 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 88",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-89",
+    "title": "Desafio HTML 89",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 89 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 89",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-90",
+    "title": "Desafio HTML 90",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 90 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 90",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-91",
+    "title": "Desafio HTML 91",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 91 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 91",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-92",
+    "title": "Desafio HTML 92",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 92 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 92",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-93",
+    "title": "Desafio HTML 93",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 93 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 93",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-94",
+    "title": "Desafio HTML 94",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 94 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 94",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-95",
+    "title": "Desafio HTML 95",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 95 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 95",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-96",
+    "title": "Desafio HTML 96",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 96 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 96",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-97",
+    "title": "Desafio HTML 97",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 97 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 97",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-98",
+    "title": "Desafio HTML 98",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 98 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 98",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-99",
+    "title": "Desafio HTML 99",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 99 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 99",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-100",
+    "title": "Desafio HTML 100",
+    "description": "Aprenda conceitos avançados de HTML (nível medium)",
+    "technology": "html",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio HTML 100 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 100",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-101",
+    "title": "Desafio HTML 101",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 101 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 101",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-102",
+    "title": "Desafio HTML 102",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 102 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 102",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-103",
+    "title": "Desafio HTML 103",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 103 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 103",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-104",
+    "title": "Desafio HTML 104",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 104 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 104",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-105",
+    "title": "Desafio HTML 105",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 105 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 105",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-106",
+    "title": "Desafio HTML 106",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 106 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 106",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-107",
+    "title": "Desafio HTML 107",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 107 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 107",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-108",
+    "title": "Desafio HTML 108",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 108 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 108",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-109",
+    "title": "Desafio HTML 109",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 109 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 109",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-110",
+    "title": "Desafio HTML 110",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 110 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 110",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-111",
+    "title": "Desafio HTML 111",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 111 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 111",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-112",
+    "title": "Desafio HTML 112",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 112 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 112",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-113",
+    "title": "Desafio HTML 113",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 113 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 113",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-114",
+    "title": "Desafio HTML 114",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 114 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 114",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-115",
+    "title": "Desafio HTML 115",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 115 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 115",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-116",
+    "title": "Desafio HTML 116",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 116 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 116",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-117",
+    "title": "Desafio HTML 117",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 117 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 117",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-118",
+    "title": "Desafio HTML 118",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 118 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 118",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-119",
+    "title": "Desafio HTML 119",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 119 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 119",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-120",
+    "title": "Desafio HTML 120",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 120 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 120",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-121",
+    "title": "Desafio HTML 121",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 121 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 121",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-122",
+    "title": "Desafio HTML 122",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 122 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 122",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-123",
+    "title": "Desafio HTML 123",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 123 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 123",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-124",
+    "title": "Desafio HTML 124",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 124 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 124",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-125",
+    "title": "Desafio HTML 125",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 125 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 125",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-126",
+    "title": "Desafio HTML 126",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 126 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 126",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-127",
+    "title": "Desafio HTML 127",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 127 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 127",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-128",
+    "title": "Desafio HTML 128",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 128 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 128",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-129",
+    "title": "Desafio HTML 129",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 129 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 129",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-130",
+    "title": "Desafio HTML 130",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 130 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 130",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-131",
+    "title": "Desafio HTML 131",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 131 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 131",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-132",
+    "title": "Desafio HTML 132",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 132 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 132",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-133",
+    "title": "Desafio HTML 133",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 133 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 133",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-134",
+    "title": "Desafio HTML 134",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 134 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 134",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-135",
+    "title": "Desafio HTML 135",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 135 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 135",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-136",
+    "title": "Desafio HTML 136",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 136 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 136",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-137",
+    "title": "Desafio HTML 137",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 137 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 137",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-138",
+    "title": "Desafio HTML 138",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 138 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 138",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-139",
+    "title": "Desafio HTML 139",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 139 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 139",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-140",
+    "title": "Desafio HTML 140",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 140 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 140",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-141",
+    "title": "Desafio HTML 141",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 141 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 141",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-142",
+    "title": "Desafio HTML 142",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 142 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 142",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-143",
+    "title": "Desafio HTML 143",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 143 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 143",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-144",
+    "title": "Desafio HTML 144",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 144 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 144",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-145",
+    "title": "Desafio HTML 145",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 145 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 145",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-146",
+    "title": "Desafio HTML 146",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 146 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 146",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-147",
+    "title": "Desafio HTML 147",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 147 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 147",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-148",
+    "title": "Desafio HTML 148",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 148 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 148",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-149",
+    "title": "Desafio HTML 149",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 149 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 149",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "html-150",
+    "title": "Desafio HTML 150",
+    "description": "Aprenda conceitos avançados de HTML (nível hard)",
+    "technology": "html",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio HTML 150 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 150",
+    "hint": "Revise a sintaxe HTML correta"
+  },
+  {
+    "id": "css-1",
+    "title": "Colorir Texto",
+    "description": "Aprenda a mudar cores de texto",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para colorir o texto de uma tag <p> para azul (#1E40AF)",
+    "expectedOutput": "Texto azul na página",
+    "hint": "Use color: #1E40AF;"
+  },
+  {
+    "id": "css-2",
+    "title": "Fundo Colorido",
+    "description": "Aprenda a adicionar cores de fundo",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar um fundo cinza (#F3F4F6) a uma div",
+    "expectedOutput": "Uma div com fundo cinza",
+    "hint": "Use background-color: #F3F4F6;"
+  },
+  {
+    "id": "css-3",
+    "title": "Centralizar Texto",
+    "description": "Aprenda a centralizar texto",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para centralizar o texto de um elemento",
+    "expectedOutput": "Texto centralizado horizontalmente",
+    "hint": "Use text-align: center;"
+  },
+  {
+    "id": "css-4",
+    "title": "Adicionar Margem",
+    "description": "Aprenda a adicionar espaço externo",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar 20px de margem em todos os lados",
+    "expectedOutput": "Elemento com espaço ao redor",
+    "hint": "Use margin: 20px;"
+  },
+  {
+    "id": "css-5",
+    "title": "Adicionar Padding",
+    "description": "Aprenda a adicionar espaço interno",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar 15px de padding",
+    "expectedOutput": "Elemento com espaço interno",
+    "hint": "Use padding: 15px;"
+  },
+  {
+    "id": "css-6",
+    "title": "Tamanho da Fonte",
+    "description": "Aprenda a alterar tamanho de fonte",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir font-size como 24px",
+    "expectedOutput": "Texto maior na página",
+    "hint": "Use font-size: 24px;"
+  },
+  {
+    "id": "css-7",
+    "title": "Adicionar Borda",
+    "description": "Aprenda a adicionar bordas",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar uma borda de 2px sólida preta",
+    "expectedOutput": "Elemento com borda preta",
+    "hint": "Use border: 2px solid black;"
+  },
+  {
+    "id": "css-8",
+    "title": "Texto em Negrito",
+    "description": "Aprenda a deixar texto em negrito",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir font-weight como bold",
+    "expectedOutput": "Texto em negrito",
+    "hint": "Use font-weight: bold;"
+  },
+  {
+    "id": "css-9",
+    "title": "Texto em Itálico",
+    "description": "Aprenda a deixar texto em itálico",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir font-style como italic",
+    "expectedOutput": "Texto em itálico",
+    "hint": "Use font-style: italic;"
+  },
+  {
+    "id": "css-10",
+    "title": "Adicionar Sombra",
+    "description": "Aprenda a adicionar sombras",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar box-shadow a um elemento",
+    "expectedOutput": "Elemento com sombra",
+    "hint": "Use box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+  },
+  {
+    "id": "css-11",
+    "title": "Cantos Arredondados",
+    "description": "Aprenda a arredondar cantos",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar border-radius de 8px",
+    "expectedOutput": "Elemento com cantos arredondados",
+    "hint": "Use border-radius: 8px;"
+  },
+  {
+    "id": "css-12",
+    "title": "Definir Largura",
+    "description": "Aprenda a definir largura",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir width como 300px",
+    "expectedOutput": "Elemento com largura de 300px",
+    "hint": "Use width: 300px;"
+  },
+  {
+    "id": "css-13",
+    "title": "Definir Altura",
+    "description": "Aprenda a definir altura",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir height como 200px",
+    "expectedOutput": "Elemento com altura de 200px",
+    "hint": "Use height: 200px;"
+  },
+  {
+    "id": "css-14",
+    "title": "Flexbox Básico",
+    "description": "Aprenda o básico de flexbox",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir display como flex",
+    "expectedOutput": "Layout flexível",
+    "hint": "Use display: flex;"
+  },
+  {
+    "id": "css-15",
+    "title": "Grid Básico",
+    "description": "Aprenda o básico de grid",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para definir display como grid",
+    "expectedOutput": "Layout em grade",
+    "hint": "Use display: grid;"
+  },
+  {
+    "id": "css-16",
+    "title": "Gradiente Linear",
+    "description": "Aprenda a criar gradientes",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para criar um background-image com gradiente linear",
+    "expectedOutput": "Fundo com gradiente",
+    "hint": "Use background-image: linear-gradient(to right, #color1, #color2);"
+  },
+  {
+    "id": "css-17",
+    "title": "Transição Suave",
+    "description": "Aprenda a adicionar transições",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar transition de 0.3s",
+    "expectedOutput": "Elemento com transição suave",
+    "hint": "Use transition: all 0.3s ease;"
+  },
+  {
+    "id": "css-18",
+    "title": "Animação CSS",
+    "description": "Aprenda a criar animações",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para criar @keyframes com uma animação simples",
+    "expectedOutput": "Elemento animado",
+    "hint": "Use @keyframes e animation:"
+  },
+  {
+    "id": "css-19",
+    "title": "Efeito Hover",
+    "description": "Aprenda a criar efeitos ao passar o mouse",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar :hover que muda a cor",
+    "expectedOutput": "Elemento com efeito hover",
+    "hint": "Use :hover { color: newcolor; }"
+  },
+  {
+    "id": "css-20",
+    "title": "Pseudo-elemento ::before",
+    "description": "Aprenda a usar ::before",
+    "technology": "css",
+    "difficulty": "easy",
+    "instructions": "Use CSS para adicionar conteúdo com ::before",
+    "expectedOutput": "Elemento com pseudo-elemento",
+    "hint": "Use ::before { content: ''; }"
+  },
+  {
+    "id": "css-21",
+    "title": "Desafio CSS 21",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 21 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 21",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-22",
+    "title": "Desafio CSS 22",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 22 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 22",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-23",
+    "title": "Desafio CSS 23",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 23 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 23",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-24",
+    "title": "Desafio CSS 24",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 24 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 24",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-25",
+    "title": "Desafio CSS 25",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 25 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 25",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-26",
+    "title": "Desafio CSS 26",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 26 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 26",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-27",
+    "title": "Desafio CSS 27",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 27 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 27",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-28",
+    "title": "Desafio CSS 28",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 28 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 28",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-29",
+    "title": "Desafio CSS 29",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 29 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 29",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-30",
+    "title": "Desafio CSS 30",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 30 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 30",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-31",
+    "title": "Desafio CSS 31",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 31 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 31",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-32",
+    "title": "Desafio CSS 32",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 32 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 32",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-33",
+    "title": "Desafio CSS 33",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 33 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 33",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-34",
+    "title": "Desafio CSS 34",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 34 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 34",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-35",
+    "title": "Desafio CSS 35",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 35 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 35",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-36",
+    "title": "Desafio CSS 36",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 36 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 36",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-37",
+    "title": "Desafio CSS 37",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 37 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 37",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-38",
+    "title": "Desafio CSS 38",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 38 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 38",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-39",
+    "title": "Desafio CSS 39",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 39 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 39",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-40",
+    "title": "Desafio CSS 40",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 40 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 40",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-41",
+    "title": "Desafio CSS 41",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 41 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 41",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-42",
+    "title": "Desafio CSS 42",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 42 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 42",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-43",
+    "title": "Desafio CSS 43",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 43 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 43",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-44",
+    "title": "Desafio CSS 44",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 44 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 44",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-45",
+    "title": "Desafio CSS 45",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 45 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 45",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-46",
+    "title": "Desafio CSS 46",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 46 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 46",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-47",
+    "title": "Desafio CSS 47",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 47 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 47",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-48",
+    "title": "Desafio CSS 48",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 48 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 48",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-49",
+    "title": "Desafio CSS 49",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 49 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 49",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-50",
+    "title": "Desafio CSS 50",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 50 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 50",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-51",
+    "title": "Desafio CSS 51",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 51 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 51",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-52",
+    "title": "Desafio CSS 52",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 52 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 52",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-53",
+    "title": "Desafio CSS 53",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 53 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 53",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-54",
+    "title": "Desafio CSS 54",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 54 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 54",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-55",
+    "title": "Desafio CSS 55",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 55 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 55",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-56",
+    "title": "Desafio CSS 56",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 56 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 56",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-57",
+    "title": "Desafio CSS 57",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 57 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 57",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-58",
+    "title": "Desafio CSS 58",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 58 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 58",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-59",
+    "title": "Desafio CSS 59",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 59 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 59",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-60",
+    "title": "Desafio CSS 60",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 60 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 60",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-61",
+    "title": "Desafio CSS 61",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 61 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 61",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-62",
+    "title": "Desafio CSS 62",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 62 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 62",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-63",
+    "title": "Desafio CSS 63",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 63 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 63",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-64",
+    "title": "Desafio CSS 64",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 64 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 64",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-65",
+    "title": "Desafio CSS 65",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 65 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 65",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-66",
+    "title": "Desafio CSS 66",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 66 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 66",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-67",
+    "title": "Desafio CSS 67",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 67 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 67",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-68",
+    "title": "Desafio CSS 68",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 68 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 68",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-69",
+    "title": "Desafio CSS 69",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 69 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 69",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-70",
+    "title": "Desafio CSS 70",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 70 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 70",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-71",
+    "title": "Desafio CSS 71",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 71 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 71",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-72",
+    "title": "Desafio CSS 72",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 72 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 72",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-73",
+    "title": "Desafio CSS 73",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 73 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 73",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-74",
+    "title": "Desafio CSS 74",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 74 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 74",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-75",
+    "title": "Desafio CSS 75",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 75 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 75",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-76",
+    "title": "Desafio CSS 76",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 76 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 76",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-77",
+    "title": "Desafio CSS 77",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 77 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 77",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-78",
+    "title": "Desafio CSS 78",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 78 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 78",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-79",
+    "title": "Desafio CSS 79",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 79 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 79",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-80",
+    "title": "Desafio CSS 80",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 80 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 80",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-81",
+    "title": "Desafio CSS 81",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 81 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 81",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-82",
+    "title": "Desafio CSS 82",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 82 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 82",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-83",
+    "title": "Desafio CSS 83",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 83 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 83",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-84",
+    "title": "Desafio CSS 84",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 84 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 84",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-85",
+    "title": "Desafio CSS 85",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 85 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 85",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-86",
+    "title": "Desafio CSS 86",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 86 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 86",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-87",
+    "title": "Desafio CSS 87",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 87 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 87",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-88",
+    "title": "Desafio CSS 88",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 88 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 88",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-89",
+    "title": "Desafio CSS 89",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 89 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 89",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-90",
+    "title": "Desafio CSS 90",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 90 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 90",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-91",
+    "title": "Desafio CSS 91",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 91 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 91",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-92",
+    "title": "Desafio CSS 92",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 92 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 92",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-93",
+    "title": "Desafio CSS 93",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 93 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 93",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-94",
+    "title": "Desafio CSS 94",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 94 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 94",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-95",
+    "title": "Desafio CSS 95",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 95 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 95",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-96",
+    "title": "Desafio CSS 96",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 96 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 96",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-97",
+    "title": "Desafio CSS 97",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 97 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 97",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-98",
+    "title": "Desafio CSS 98",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 98 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 98",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-99",
+    "title": "Desafio CSS 99",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 99 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 99",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-100",
+    "title": "Desafio CSS 100",
+    "description": "Aprenda conceitos avançados de CSS (nível medium)",
+    "technology": "css",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio CSS 100 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 100",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-101",
+    "title": "Desafio CSS 101",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 101 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 101",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-102",
+    "title": "Desafio CSS 102",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 102 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 102",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-103",
+    "title": "Desafio CSS 103",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 103 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 103",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-104",
+    "title": "Desafio CSS 104",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 104 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 104",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-105",
+    "title": "Desafio CSS 105",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 105 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 105",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-106",
+    "title": "Desafio CSS 106",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 106 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 106",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-107",
+    "title": "Desafio CSS 107",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 107 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 107",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-108",
+    "title": "Desafio CSS 108",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 108 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 108",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-109",
+    "title": "Desafio CSS 109",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 109 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 109",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-110",
+    "title": "Desafio CSS 110",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 110 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 110",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-111",
+    "title": "Desafio CSS 111",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 111 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 111",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-112",
+    "title": "Desafio CSS 112",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 112 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 112",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-113",
+    "title": "Desafio CSS 113",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 113 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 113",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-114",
+    "title": "Desafio CSS 114",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 114 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 114",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-115",
+    "title": "Desafio CSS 115",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 115 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 115",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-116",
+    "title": "Desafio CSS 116",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 116 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 116",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-117",
+    "title": "Desafio CSS 117",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 117 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 117",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-118",
+    "title": "Desafio CSS 118",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 118 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 118",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-119",
+    "title": "Desafio CSS 119",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 119 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 119",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-120",
+    "title": "Desafio CSS 120",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 120 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 120",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-121",
+    "title": "Desafio CSS 121",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 121 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 121",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-122",
+    "title": "Desafio CSS 122",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 122 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 122",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-123",
+    "title": "Desafio CSS 123",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 123 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 123",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-124",
+    "title": "Desafio CSS 124",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 124 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 124",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-125",
+    "title": "Desafio CSS 125",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 125 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 125",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-126",
+    "title": "Desafio CSS 126",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 126 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 126",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-127",
+    "title": "Desafio CSS 127",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 127 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 127",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-128",
+    "title": "Desafio CSS 128",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 128 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 128",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-129",
+    "title": "Desafio CSS 129",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 129 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 129",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-130",
+    "title": "Desafio CSS 130",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 130 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 130",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-131",
+    "title": "Desafio CSS 131",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 131 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 131",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-132",
+    "title": "Desafio CSS 132",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 132 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 132",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-133",
+    "title": "Desafio CSS 133",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 133 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 133",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-134",
+    "title": "Desafio CSS 134",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 134 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 134",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-135",
+    "title": "Desafio CSS 135",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 135 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 135",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-136",
+    "title": "Desafio CSS 136",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 136 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 136",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-137",
+    "title": "Desafio CSS 137",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 137 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 137",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-138",
+    "title": "Desafio CSS 138",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 138 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 138",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-139",
+    "title": "Desafio CSS 139",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 139 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 139",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-140",
+    "title": "Desafio CSS 140",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 140 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 140",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-141",
+    "title": "Desafio CSS 141",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 141 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 141",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-142",
+    "title": "Desafio CSS 142",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 142 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 142",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-143",
+    "title": "Desafio CSS 143",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 143 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 143",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-144",
+    "title": "Desafio CSS 144",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 144 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 144",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-145",
+    "title": "Desafio CSS 145",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 145 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 145",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-146",
+    "title": "Desafio CSS 146",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 146 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 146",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-147",
+    "title": "Desafio CSS 147",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 147 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 147",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-148",
+    "title": "Desafio CSS 148",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 148 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 148",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-149",
+    "title": "Desafio CSS 149",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 149 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 149",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "css-150",
+    "title": "Desafio CSS 150",
+    "description": "Aprenda conceitos avançados de CSS (nível hard)",
+    "technology": "css",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio CSS 150 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 150",
+    "hint": "Revise a sintaxe CSS correta"
+  },
+  {
+    "id": "javascript-1",
+    "title": "Variável com let",
+    "description": "Aprenda a criar variáveis",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie uma variável chamada 'nome' com o valor 'João'",
+    "expectedOutput": "Variável 'nome' criada com valor 'João'",
+    "hint": "Use let nome = 'João';"
+  },
+  {
+    "id": "javascript-2",
+    "title": "Função Simples",
+    "description": "Aprenda a criar funções",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie uma função chamada 'somar' que retorna 5 + 3",
+    "expectedOutput": "Função que retorna 8",
+    "hint": "Use function somar() { return 5 + 3; }"
+  },
+  {
+    "id": "javascript-3",
+    "title": "Operação Matemática",
+    "description": "Aprenda operações básicas",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie uma variável 'resultado' que armazena 10 * 5",
+    "expectedOutput": "Variável com valor 50",
+    "hint": "Use let resultado = 10 * 5;"
+  },
+  {
+    "id": "javascript-4",
+    "title": "Condicional if",
+    "description": "Aprenda condicionais",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um if que verifica se 5 > 3",
+    "expectedOutput": "Condicional criada",
+    "hint": "Use if (5 > 3) { }"
+  },
+  {
+    "id": "javascript-5",
+    "title": "Condicional if-else",
+    "description": "Aprenda if-else",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um if-else que verifica uma condição",
+    "expectedOutput": "Condicional com else",
+    "hint": "Use if () { } else { }"
+  },
+  {
+    "id": "javascript-6",
+    "title": "Loop for",
+    "description": "Aprenda loops for",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um loop for que itera 5 vezes",
+    "expectedOutput": "Loop for criado",
+    "hint": "Use for (let i = 0; i < 5; i++) { }"
+  },
+  {
+    "id": "javascript-7",
+    "title": "Loop while",
+    "description": "Aprenda loops while",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um loop while que itera enquanto i < 5",
+    "expectedOutput": "Loop while criado",
+    "hint": "Use while (i < 5) { }"
+  },
+  {
+    "id": "javascript-8",
+    "title": "Array Simples",
+    "description": "Aprenda a criar arrays",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um array com 3 números: 1, 2, 3",
+    "expectedOutput": "Array criado com 3 números",
+    "hint": "Use let arr = [1, 2, 3];"
+  },
+  {
+    "id": "javascript-9",
+    "title": "Acessar Array",
+    "description": "Aprenda a acessar elementos",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Acesse o primeiro elemento de um array",
+    "expectedOutput": "Primeiro elemento acessado",
+    "hint": "Use arr[0]"
+  },
+  {
+    "id": "javascript-10",
+    "title": "Objeto Simples",
+    "description": "Aprenda a criar objetos",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie um objeto com propriedades 'nome' e 'idade'",
+    "expectedOutput": "Objeto criado com propriedades",
+    "hint": "Use let obj = { nome: 'João', idade: 30 };"
+  },
+  {
+    "id": "javascript-11",
+    "title": "Acessar Propriedade",
+    "description": "Aprenda a acessar propriedades",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Acesse a propriedade 'nome' de um objeto",
+    "expectedOutput": "Propriedade acessada",
+    "hint": "Use obj.nome ou obj['nome']"
+  },
+  {
+    "id": "javascript-12",
+    "title": "Concatenação de Strings",
+    "description": "Aprenda a concatenar strings",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Concatene duas strings: 'Olá' + ' ' + 'Mundo'",
+    "expectedOutput": "Strings concatenadas",
+    "hint": "Use 'Olá' + ' ' + 'Mundo'"
+  },
+  {
+    "id": "javascript-13",
+    "title": "Template String",
+    "description": "Aprenda template strings",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use template string com ${} para inserir variável",
+    "expectedOutput": "Template string usada",
+    "hint": "Use `Olá ${nome}`"
+  },
+  {
+    "id": "javascript-14",
+    "title": "Método push()",
+    "description": "Aprenda a adicionar elementos",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use push() para adicionar um elemento ao array",
+    "expectedOutput": "Elemento adicionado ao array",
+    "hint": "Use arr.push(4);"
+  },
+  {
+    "id": "javascript-15",
+    "title": "Método pop()",
+    "description": "Aprenda a remover elementos",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use pop() para remover o último elemento",
+    "expectedOutput": "Elemento removido do array",
+    "hint": "Use arr.pop();"
+  },
+  {
+    "id": "javascript-16",
+    "title": "Propriedade length",
+    "description": "Aprenda a obter tamanho",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use length para obter o tamanho de um array",
+    "expectedOutput": "Tamanho do array obtido",
+    "hint": "Use arr.length"
+  },
+  {
+    "id": "javascript-17",
+    "title": "forEach()",
+    "description": "Aprenda a iterar com forEach",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use forEach() para iterar sobre um array",
+    "expectedOutput": "Array iterado com forEach",
+    "hint": "Use arr.forEach(item => { })"
+  },
+  {
+    "id": "javascript-18",
+    "title": "map()",
+    "description": "Aprenda a transformar arrays",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use map() para transformar cada elemento",
+    "expectedOutput": "Array transformado com map",
+    "hint": "Use arr.map(item => item * 2)"
+  },
+  {
+    "id": "javascript-19",
+    "title": "filter()",
+    "description": "Aprenda a filtrar arrays",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Use filter() para filtrar elementos maiores que 5",
+    "expectedOutput": "Array filtrado com filter",
+    "hint": "Use arr.filter(item => item > 5)"
+  },
+  {
+    "id": "javascript-20",
+    "title": "Arrow Function",
+    "description": "Aprenda arrow functions",
+    "technology": "javascript",
+    "difficulty": "easy",
+    "instructions": "Crie uma arrow function que retorna o dobro",
+    "expectedOutput": "Arrow function criada",
+    "hint": "Use const dobro = (x) => x * 2;"
+  },
+  {
+    "id": "javascript-21",
+    "title": "Desafio JavaScript 21",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 21 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 21",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-22",
+    "title": "Desafio JavaScript 22",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 22 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 22",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-23",
+    "title": "Desafio JavaScript 23",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 23 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 23",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-24",
+    "title": "Desafio JavaScript 24",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 24 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 24",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-25",
+    "title": "Desafio JavaScript 25",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 25 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 25",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-26",
+    "title": "Desafio JavaScript 26",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 26 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 26",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-27",
+    "title": "Desafio JavaScript 27",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 27 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 27",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-28",
+    "title": "Desafio JavaScript 28",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 28 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 28",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-29",
+    "title": "Desafio JavaScript 29",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 29 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 29",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-30",
+    "title": "Desafio JavaScript 30",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 30 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 30",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-31",
+    "title": "Desafio JavaScript 31",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 31 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 31",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-32",
+    "title": "Desafio JavaScript 32",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 32 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 32",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-33",
+    "title": "Desafio JavaScript 33",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 33 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 33",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-34",
+    "title": "Desafio JavaScript 34",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 34 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 34",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-35",
+    "title": "Desafio JavaScript 35",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 35 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 35",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-36",
+    "title": "Desafio JavaScript 36",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 36 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 36",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-37",
+    "title": "Desafio JavaScript 37",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 37 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 37",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-38",
+    "title": "Desafio JavaScript 38",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 38 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 38",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-39",
+    "title": "Desafio JavaScript 39",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 39 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 39",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-40",
+    "title": "Desafio JavaScript 40",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 40 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 40",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-41",
+    "title": "Desafio JavaScript 41",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 41 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 41",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-42",
+    "title": "Desafio JavaScript 42",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 42 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 42",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-43",
+    "title": "Desafio JavaScript 43",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 43 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 43",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-44",
+    "title": "Desafio JavaScript 44",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 44 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 44",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-45",
+    "title": "Desafio JavaScript 45",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 45 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 45",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-46",
+    "title": "Desafio JavaScript 46",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 46 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 46",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-47",
+    "title": "Desafio JavaScript 47",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 47 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 47",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-48",
+    "title": "Desafio JavaScript 48",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 48 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 48",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-49",
+    "title": "Desafio JavaScript 49",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 49 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 49",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-50",
+    "title": "Desafio JavaScript 50",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 50 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 50",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-51",
+    "title": "Desafio JavaScript 51",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 51 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 51",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-52",
+    "title": "Desafio JavaScript 52",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 52 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 52",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-53",
+    "title": "Desafio JavaScript 53",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 53 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 53",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-54",
+    "title": "Desafio JavaScript 54",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 54 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 54",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-55",
+    "title": "Desafio JavaScript 55",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 55 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 55",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-56",
+    "title": "Desafio JavaScript 56",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 56 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 56",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-57",
+    "title": "Desafio JavaScript 57",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 57 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 57",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-58",
+    "title": "Desafio JavaScript 58",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 58 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 58",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-59",
+    "title": "Desafio JavaScript 59",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 59 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 59",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-60",
+    "title": "Desafio JavaScript 60",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 60 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 60",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-61",
+    "title": "Desafio JavaScript 61",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 61 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 61",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-62",
+    "title": "Desafio JavaScript 62",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 62 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 62",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-63",
+    "title": "Desafio JavaScript 63",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 63 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 63",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-64",
+    "title": "Desafio JavaScript 64",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 64 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 64",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-65",
+    "title": "Desafio JavaScript 65",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 65 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 65",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-66",
+    "title": "Desafio JavaScript 66",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 66 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 66",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-67",
+    "title": "Desafio JavaScript 67",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 67 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 67",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-68",
+    "title": "Desafio JavaScript 68",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 68 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 68",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-69",
+    "title": "Desafio JavaScript 69",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 69 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 69",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-70",
+    "title": "Desafio JavaScript 70",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 70 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 70",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-71",
+    "title": "Desafio JavaScript 71",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 71 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 71",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-72",
+    "title": "Desafio JavaScript 72",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 72 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 72",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-73",
+    "title": "Desafio JavaScript 73",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 73 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 73",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-74",
+    "title": "Desafio JavaScript 74",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 74 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 74",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-75",
+    "title": "Desafio JavaScript 75",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 75 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 75",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-76",
+    "title": "Desafio JavaScript 76",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 76 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 76",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-77",
+    "title": "Desafio JavaScript 77",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 77 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 77",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-78",
+    "title": "Desafio JavaScript 78",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 78 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 78",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-79",
+    "title": "Desafio JavaScript 79",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 79 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 79",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-80",
+    "title": "Desafio JavaScript 80",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 80 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 80",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-81",
+    "title": "Desafio JavaScript 81",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 81 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 81",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-82",
+    "title": "Desafio JavaScript 82",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 82 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 82",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-83",
+    "title": "Desafio JavaScript 83",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 83 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 83",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-84",
+    "title": "Desafio JavaScript 84",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 84 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 84",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-85",
+    "title": "Desafio JavaScript 85",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 85 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 85",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-86",
+    "title": "Desafio JavaScript 86",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 86 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 86",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-87",
+    "title": "Desafio JavaScript 87",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 87 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 87",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-88",
+    "title": "Desafio JavaScript 88",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 88 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 88",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-89",
+    "title": "Desafio JavaScript 89",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 89 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 89",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-90",
+    "title": "Desafio JavaScript 90",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 90 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 90",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-91",
+    "title": "Desafio JavaScript 91",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 91 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 91",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-92",
+    "title": "Desafio JavaScript 92",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 92 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 92",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-93",
+    "title": "Desafio JavaScript 93",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 93 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 93",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-94",
+    "title": "Desafio JavaScript 94",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 94 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 94",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-95",
+    "title": "Desafio JavaScript 95",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 95 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 95",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-96",
+    "title": "Desafio JavaScript 96",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 96 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 96",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-97",
+    "title": "Desafio JavaScript 97",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 97 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 97",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-98",
+    "title": "Desafio JavaScript 98",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 98 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 98",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-99",
+    "title": "Desafio JavaScript 99",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 99 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 99",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-100",
+    "title": "Desafio JavaScript 100",
+    "description": "Aprenda conceitos avançados de JavaScript (nível medium)",
+    "technology": "javascript",
+    "difficulty": "medium",
+    "instructions": "Complete este desafio JavaScript 100 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 100",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-101",
+    "title": "Desafio JavaScript 101",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 101 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 101",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-102",
+    "title": "Desafio JavaScript 102",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 102 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 102",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-103",
+    "title": "Desafio JavaScript 103",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 103 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 103",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-104",
+    "title": "Desafio JavaScript 104",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 104 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 104",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-105",
+    "title": "Desafio JavaScript 105",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 105 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 105",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-106",
+    "title": "Desafio JavaScript 106",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 106 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 106",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-107",
+    "title": "Desafio JavaScript 107",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 107 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 107",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-108",
+    "title": "Desafio JavaScript 108",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 108 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 108",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-109",
+    "title": "Desafio JavaScript 109",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 109 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 109",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-110",
+    "title": "Desafio JavaScript 110",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 110 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 110",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-111",
+    "title": "Desafio JavaScript 111",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 111 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 111",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-112",
+    "title": "Desafio JavaScript 112",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 112 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 112",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-113",
+    "title": "Desafio JavaScript 113",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 113 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 113",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-114",
+    "title": "Desafio JavaScript 114",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 114 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 114",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-115",
+    "title": "Desafio JavaScript 115",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 115 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 115",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-116",
+    "title": "Desafio JavaScript 116",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 116 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 116",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-117",
+    "title": "Desafio JavaScript 117",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 117 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 117",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-118",
+    "title": "Desafio JavaScript 118",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 118 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 118",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-119",
+    "title": "Desafio JavaScript 119",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 119 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 119",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-120",
+    "title": "Desafio JavaScript 120",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 120 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 120",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-121",
+    "title": "Desafio JavaScript 121",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 121 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 121",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-122",
+    "title": "Desafio JavaScript 122",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 122 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 122",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-123",
+    "title": "Desafio JavaScript 123",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 123 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 123",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-124",
+    "title": "Desafio JavaScript 124",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 124 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 124",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-125",
+    "title": "Desafio JavaScript 125",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 125 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 125",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-126",
+    "title": "Desafio JavaScript 126",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 126 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 126",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-127",
+    "title": "Desafio JavaScript 127",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 127 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 127",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-128",
+    "title": "Desafio JavaScript 128",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 128 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 128",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-129",
+    "title": "Desafio JavaScript 129",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 129 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 129",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-130",
+    "title": "Desafio JavaScript 130",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 130 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 130",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-131",
+    "title": "Desafio JavaScript 131",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 131 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 131",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-132",
+    "title": "Desafio JavaScript 132",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 132 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 132",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-133",
+    "title": "Desafio JavaScript 133",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 133 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 133",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-134",
+    "title": "Desafio JavaScript 134",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 134 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 134",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-135",
+    "title": "Desafio JavaScript 135",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 135 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 135",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-136",
+    "title": "Desafio JavaScript 136",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 136 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 136",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-137",
+    "title": "Desafio JavaScript 137",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 137 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 137",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-138",
+    "title": "Desafio JavaScript 138",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 138 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 138",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-139",
+    "title": "Desafio JavaScript 139",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 139 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 139",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-140",
+    "title": "Desafio JavaScript 140",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 140 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 140",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-141",
+    "title": "Desafio JavaScript 141",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 141 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 141",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-142",
+    "title": "Desafio JavaScript 142",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 142 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 142",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-143",
+    "title": "Desafio JavaScript 143",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 143 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 143",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-144",
+    "title": "Desafio JavaScript 144",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 144 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 144",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-145",
+    "title": "Desafio JavaScript 145",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 145 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 145",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-146",
+    "title": "Desafio JavaScript 146",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 146 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 146",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-147",
+    "title": "Desafio JavaScript 147",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 147 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 147",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-148",
+    "title": "Desafio JavaScript 148",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 148 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 148",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-149",
+    "title": "Desafio JavaScript 149",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 149 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 149",
+    "hint": "Revise a sintaxe JavaScript correta"
+  },
+  {
+    "id": "javascript-150",
+    "title": "Desafio JavaScript 150",
+    "description": "Aprenda conceitos avançados de JavaScript (nível hard)",
+    "technology": "javascript",
+    "difficulty": "hard",
+    "instructions": "Complete este desafio JavaScript 150 aplicando os conceitos aprendidos",
+    "expectedOutput": "Resultado esperado para desafio 150",
+    "hint": "Revise a sintaxe JavaScript correta"
+  }
+]
