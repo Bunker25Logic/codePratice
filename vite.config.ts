@@ -152,8 +152,8 @@ function vitePluginManusDebugCollector(): Plugin {
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
-export default defineConfig({
-  base: "/codePratice/",
+export default defineConfig(({ mode }) => ({
+  base: mode === "production" ? "/codePratice/" : "/",
   plugins,
   resolve: {
     alias: {
@@ -186,4 +186,4 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
-});
+}));
